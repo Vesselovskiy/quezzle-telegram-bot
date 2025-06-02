@@ -90,7 +90,9 @@ def get_today_games(rows, today):
 
 # Chrome options
 options = webdriver.ChromeOptions()
-# options.add_argument("--headless")  # Uncomment for headless mode
+options.add_argument("--headless")  # ⬅ обязательно
+options.add_argument("--no-sandbox")
+options.add_argument("--disable-dev-shm-usage")
 
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
