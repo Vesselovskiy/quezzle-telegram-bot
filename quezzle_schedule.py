@@ -6,10 +6,13 @@ from webdriver_manager.chrome import ChromeDriverManager  # type: ignore
 from selenium.webdriver.support.ui import WebDriverWait  # type: ignore
 from selenium.webdriver.support import expected_conditions as EC  # type: ignore
 from datetime import datetime, timedelta
+from telegram_state import download_last_state, save_state
 import requests  # type: ignore
 import json
 import os
 import sys
+from dotenv import load_dotenv
+load_dotenv()
 
 MODE = "today"  # Default
 
@@ -123,7 +126,8 @@ try:
     today = (datetime.now() + timedelta(days=date_offset)).strftime("%Y-%m-%d")
 
     today_games = get_today_games(rows, today)
-    previous_games = load_last_state(today)
+    previous_games = download_last_state(today)
+
 
     if not previous_games:
         # Первый запуск или смена дня
@@ -140,7 +144,7 @@ try:
             full_message = f"😱 No games planned ({today})"
         send_telegram_message(full_message)
         print(full_message)
-        save_current_state(today_games, today)
+        save_state(today_games, today)
     else:
         # Сравнение состояний
         changes_detected = False
@@ -204,7 +208,7 @@ try:
 
             send_telegram_message("\n".join(messages))
             print("\n".join(messages))
-            save_current_state(today_games, today)
+            save_state(today_games, today)
         else:
             print("Изменений не обнаружено.")
 
