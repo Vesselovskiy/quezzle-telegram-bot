@@ -1,10 +1,12 @@
 import os
 import json
 import requests
+from dotenv import load_dotenv
+load_dotenv()
 
 # Укажи свой токен и чат ID
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN") or "ТОКЕН_БОТА"
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID") or "ID_ЧАТА"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN") 
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATE_FILE = os.path.join(BASE_DIR, "last_state.json")
