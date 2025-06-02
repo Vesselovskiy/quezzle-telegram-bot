@@ -23,6 +23,8 @@ if len(sys.argv) > 1:
 # Telegram config
 TELEGRAM_TOKEN = "7792099885:AAG9qfwBTaTqnlQCtw03OBJ7fgPKSSNVkVE"
 CHAT_ID = "409897409"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
 def send_telegram_message(message: str):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
