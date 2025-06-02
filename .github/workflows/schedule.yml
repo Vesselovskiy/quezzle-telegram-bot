@@ -1,4 +1,4 @@
-name: Run daily game check
+name: Run booking check
 
 on:
   schedule:
