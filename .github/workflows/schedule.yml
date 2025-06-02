@@ -2,7 +2,7 @@ name: Run booking check
 
 on:
   schedule:
-    - cron: '*/2 * * * *'  # Каждые 2 минуты
+  #  - cron: '*/2 * * * *'  # Каждые 2 минуты
   workflow_dispatch:       # Возможность запустить вручную
 
 jobs:
