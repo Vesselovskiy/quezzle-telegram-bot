@@ -12,6 +12,7 @@ import json
 import os
 import sys
 import subprocess
+import argparse
 
 load_dotenv()
 
@@ -38,6 +39,7 @@ EMOJI_MAP = {
     "BNK": "💰",
     "APO": "☣️"
 }
+
 
 # ─── Telegram ────────────────────────────────────────────────────────────────────
 def send_telegram_message(message: str):
@@ -166,14 +168,14 @@ def generate_message(today: str, current: list, previous: list, name_map: dict) 
 def main():
     name_map = load_name_map()
     date_offset = 0 if MODE == "today" else 1
-    today = (datetime.now() + timedelta(days=date_offset)).strftime("%Y-%m-%d")
+    target_date = (datetime.now() + timedelta(days=date_offset)).strftime("%Y-%m-%d")
 
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("--disable-gpu")
-    options.add_argument("--log-level=3")  # Only fatal errors
+    options.add_argument("--log-level=3")
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
@@ -188,16 +190,34 @@ def main():
         print("Авторизация прошла успешно!")
 
         rows = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "table-responsive"))).find_elements(By.TAG_NAME, "tr")
-        current_games = get_today_games(rows, today)
-        previous_games = load_last_state(today)
+        current_games = get_today_games(rows, target_date)
 
-        message = generate_message(today, current_games, previous_games, name_map)
+        if MODE == "tomorrow":
+            message_lines = []
+            for g in current_games:
+                abbr = g["game"][:3]
+                emoji = EMOJI_MAP.get(abbr, "")
+                name = g["responsible"]
+                mention = format_mention(name, name_map)
+                message_lines.append(f"{emoji}{abbr} | {g['time']} | {mention}")
+            if message_lines:
+                full_message = f"📅 Tomorrow's games ({target_date}):\n\n" + "\n".join(message_lines)
+            else:
+                full_message = f"😱 No games planned for tomorrow ({target_date})"
+            send_telegram_message(full_message)
+            print(full_message)
+            return  # Завершаем, чтобы не продолжать обработку
+
+        # MODE == "today"
+        previous_games = load_last_state(target_date)
+        message = generate_message(target_date, current_games, previous_games, name_map)
         if message:
             send_telegram_message(message)
             print(message)
-            save_current_state(current_games, today)
+            save_current_state(current_games, target_date)
         else:
             print("Изменений не обнаружено.")
+
     except Exception as e:
         error_msg = f"❗️Script error: {e}"
         print(error_msg)
