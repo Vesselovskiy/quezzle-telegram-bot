@@ -4,6 +4,11 @@ on:
   # schedule:
   #   - cron: '*/2 * * * *'  # Каждые 2 минуты
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Schedule mode (today or tomorrow)'
+        required: false
+        default: 'today'
 
 permissions:
   contents: write  # ✅ даем GitHub Actions право делать git push
@@ -37,4 +42,11 @@ jobs:
           GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 👈 Меняем на встроенный токен
           BRAIN_QUEZZLE_USERNAME: ${{ secrets.BRAIN_QUEZZLE_USERNAME }}
           BRAIN_QUEZZLE_PASSWORD: ${{ secrets.BRAIN_QUEZZLE_PASSWORD }}
-        run: python quezzle_schedule.py
+        run: |
+          if [ "${{ github.event.inputs.mode }}" = "tomorrow" ]; then
+            echo "Sending schedule for tomorrow"
+            python quezzle_schedule.py --tomorrow
+          else
+            echo "Sending schedule for today"
+            python quezzle_schedule.py
+          fi
