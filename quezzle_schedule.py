@@ -2,83 +2,84 @@ from selenium import webdriver  # type: ignore
 from selenium.webdriver.common.by import By  # type: ignore
 from selenium.webdriver.common.keys import Keys  # type: ignore
 from selenium.webdriver.chrome.service import Service  # type: ignore
-from webdriver_manager.chrome import ChromeDriverManager  # type: ignore
 from selenium.webdriver.support.ui import WebDriverWait  # type: ignore
 from selenium.webdriver.support import expected_conditions as EC  # type: ignore
+from webdriver_manager.chrome import ChromeDriverManager  # type: ignore
 from datetime import datetime, timedelta
-from telegram_state import download_last_state, save_state
+from dotenv import load_dotenv
 import requests  # type: ignore
 import json
 import os
 import sys
-from dotenv import load_dotenv
+import subprocess
+
 load_dotenv()
 
-MODE = "today"  # Default
-
-if len(sys.argv) > 1:
-    if sys.argv[1].lower() in ["today", "tomorrow"]:
-        MODE = sys.argv[1].lower()
-
-# Telegram config
-TELEGRAM_TOKEN = "7792099885:AAG9qfwBTaTqnlQCtw03OBJ7fgPKSSNVkVE"
-CHAT_ID = "409897409"
+# ─── Константы и конфигурация ───────────────────────────────────────────────────
+MODE = sys.argv[1].lower() if len(sys.argv) > 1 and sys.argv[1].lower() in ["today", "tomorrow"] else "today"
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
 CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 
-def send_telegram_message(message: str):
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    data = {"chat_id": CHAT_ID, "text": message}
-    try:
-        requests.post(url, data=data)
-    except Exception as e:
-        print("Ошибка при отправке в Telegram:", e)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+STATE_FILE = os.path.join(BASE_DIR, "last_state.json")
+ASSOCIATIONS_FILE = os.path.join(BASE_DIR, "associations.json")
 
-# Emoji mapping
-emoji_map = {
+EMOJI_MAP = {
     "SHE": "🕵️",
     "FRO": "⚱️",
     "BNK": "💰",
     "APO": "☣️"
 }
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-STATE_FILE = os.path.join(BASE_DIR, "last_state.json")
+# ─── Telegram ────────────────────────────────────────────────────────────────────
+def send_telegram_message(message: str):
+    try:
+        url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+        requests.post(url, data={"chat_id": CHAT_ID, "text": message})
+    except Exception as e:
+        print("Ошибка при отправке в Telegram:", e)
 
-# Load name associations
-ASSOCIATIONS_FILE = os.path.join(os.path.dirname(__file__), "associations.json")
+# ─── Git Commit State File ───────────────────────────────────────────────────────
+def git_commit_state(today: str):
+    try:
+        subprocess.run(["git", "config", "--global", "user.name", "StateFileUpdateBot"], check=True)
+        subprocess.run(["git", "config", "--global", "user.email", "statefileupdate@bot.com"], check=True)
+        subprocess.run(["git", "add", STATE_FILE], check=True)
+        subprocess.run(["git", "commit", "-m", f"Update state for {today}"], check=True)
+        subprocess.run(["git", "push"], check=True)
+        print("✅ Коммит и пуш состояния выполнен")
+    except subprocess.CalledProcessError as e:
+        print(f"⚠️ Ошибка Git: {e}")
 
-if not os.path.exists(ASSOCIATIONS_FILE):
-    with open(ASSOCIATIONS_FILE, "w") as f:
-        json.dump({}, f, indent=2)
+# ─── Работа с состоянием ─────────────────────────────────────────────────────────
+def load_name_map() -> dict:
+    if not os.path.exists(ASSOCIATIONS_FILE):
+        with open(ASSOCIATIONS_FILE, "w") as f:
+            json.dump({}, f, indent=2)
+    try:
+        with open(ASSOCIATIONS_FILE, "r") as f:
+            return json.load(f)
+    except Exception as e:
+        print(f"Error reading associations.json: {e}")
+        return {}
 
-try:
-    with open(ASSOCIATIONS_FILE, "r") as f:
-        name_map = json.load(f)
-except Exception as e:
-    print(f"Error reading associations.json: {e}")
-    name_map = {}
-
-def load_last_state(today):
+def load_last_state(today: str) -> list:
     if os.path.exists(STATE_FILE):
         try:
             with open(STATE_FILE, "r") as f:
                 data = json.load(f)
-                if data.get("date") == today:
-                    return data.get("games", [])
+                return data.get("games", []) if data.get("date") == today else []
         except Exception:
             pass
     return []
 
-def save_current_state(games, today):
-    state_data = {
-        "date": today,
-        "games": games
-    }
+def save_current_state(games: list, today: str):
     with open(STATE_FILE, "w") as f:
-        json.dump(state_data, f, indent=2)
+        json.dump({"date": today, "games": games}, f, indent=2)
+    git_commit_state(today)
 
-def get_today_games(rows, today):
+# ─── Получение данных ────────────────────────────────────────────────────────────
+def get_today_games(rows, today: str) -> list:
     games = []
     for row in rows:
         cells = row.find_elements(By.TAG_NAME, "td")
@@ -93,131 +94,101 @@ def get_today_games(rows, today):
             })
     return games
 
-# Chrome options
-options = webdriver.ChromeOptions()
-options.add_argument("--headless")  # ⬅ обязательно
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage")
+# ─── Форматирование сообщений ─────────────────────────────────────────────────────
+def format_mention(name: str, name_map: dict) -> str:
+    return "❓" if name.strip().startswith("Ingen") else name_map.get(name, name)
 
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+def generate_message(today: str, current: list, previous: list, name_map: dict) -> str:
+    if not previous:
+        if not current:
+            return f"😱 No games planned ({today})"
+        lines = [f"{EMOJI_MAP.get(g['game'][:3], '')}{g['game'][:3]} | {g['time']} | {format_mention(g['responsible'], name_map)}" for g in current]
+        return f"🗓️ Today's games ({today}):\n\n" + "\n".join(lines)
 
-try:
-    driver.get("https://brain.quezzle.se/")
+    # Compare states
+    added, removed, changed = [], [], []
+    old_map = {(g["game"], g["time"]): g for g in previous}
+    new_map = {(g["game"], g["time"]): g for g in current}
 
-    wait = WebDriverWait(driver, 10)
+    for key, val in new_map.items():
+        if key not in old_map:
+            added.append(val)
+        elif val["responsible"] != old_map[key]["responsible"]:
+            changed.append((old_map[key], val))
 
-    # Login
-    login_button = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Logga in')]")))
-    login_button.click()
+    for key, val in old_map.items():
+        if key not in new_map:
+            removed.append(val)
 
-    username_field = wait.until(EC.visibility_of_element_located((By.NAME, "email")))
-    password_field = driver.find_element(By.NAME, "password")
+    if not (added or changed or removed):
+        return ""
 
-    username_field.send_keys("vesselovskayan@gmail.com")
-    password_field.send_keys("Onyx")
-    password_field.send_keys(Keys.RETURN)
+    sections = []
 
-    wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "avatar-img")))
-    print("Авторизация прошла успешно!")
+    if added:
+        lines = ["➕ New booking(s):"] + [
+            f"{EMOJI_MAP.get(g['game'][:3], '')}{g['game'][:3]} | {g['time']} | {format_mention(g['responsible'], name_map)}"
+            for g in added
+        ]
+        sections.append("\n".join(lines))
 
-    # Table
-    bookings_table = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "table-responsive")))
-    rows = bookings_table.find_elements(By.TAG_NAME, "tr")
+    if changed:
+        lines = ["🕴️ Game master assigned (changed):"] + [
+            f"{EMOJI_MAP.get(n['game'][:3], '')}{n['game'][:3]} | {n['time']} | {format_mention(o['responsible'], name_map)} → {format_mention(n['responsible'], name_map)}"
+            for o, n in changed
+        ]
+        sections.append("\n".join(lines))
 
+    if removed:
+        lines = ["❌ Game booking cancelled:"] + [
+            f"{EMOJI_MAP.get(g['game'][:3], '')}{g['game'][:3]} | {g['time']} | {format_mention(g['responsible'], name_map)}"
+            for g in removed
+        ]
+        sections.append("\n".join(lines))
+
+    return f"📅 Сhanges in game bookings {today}:\n\n" + "\n\n".join(sections)
+
+# ─── Основная логика ──────────────────────────────────────────────────────────────
+def main():
+    name_map = load_name_map()
     date_offset = 0 if MODE == "today" else 1
     today = (datetime.now() + timedelta(days=date_offset)).strftime("%Y-%m-%d")
 
-    today_games = get_today_games(rows, today)
-    previous_games = download_last_state(today)
+    options = webdriver.ChromeOptions()
+    options.add_argument("--headless")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--disable-gpu")
 
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
-    if not previous_games:
-        # Первый запуск или смена дня
-        message_lines = []
-        for g in today_games:
-            abbr = g["game"][:3]
-            emoji = emoji_map.get(abbr, "")
-            name = g["responsible"]
-            mention = "❓" if name.strip().startswith("Ingen") else name_map.get(name, name)
-            message_lines.append(f"{emoji}{abbr} | {g['time']} | {mention}")
-        if message_lines:
-            full_message = f"🗓️ Today's games ({today}):\n\n" + "\n".join(message_lines)
-        else:
-            full_message = f"😱 No games planned ({today})"
-        send_telegram_message(full_message)
-        print(full_message)
-        save_state(today_games, today)
-    else:
-        # Сравнение состояний
-        changes_detected = False
-        added, removed, changed = [], [], []
+    try:
+        driver.get("https://brain.quezzle.se/")
+        wait = WebDriverWait(driver, 10)
 
-        previous_keys = {(g["game"], g["time"]): g for g in previous_games}
-        current_keys = {(g["game"], g["time"]): g for g in today_games}
+        wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Logga in')]"))).click()
+        wait.until(EC.visibility_of_element_located((By.NAME, "email"))).send_keys("vesselovskayan@gmail.com")
+        driver.find_element(By.NAME, "password").send_keys("Onyx" + Keys.RETURN)
+        wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "avatar-img")))
+        print("Авторизация прошла успешно!")
 
-        for key in current_keys:
-            if key not in previous_keys:
-                added.append(current_keys[key])
-                changes_detected = True
-            elif current_keys[key]["responsible"] != previous_keys[key]["responsible"]:
-                changed.append((previous_keys[key], current_keys[key]))
-                changes_detected = True
+        rows = wait.until(EC.visibility_of_element_located((By.CLASS_NAME, "table-responsive"))).find_elements(By.TAG_NAME, "tr")
+        current_games = get_today_games(rows, today)
+        previous_games = load_last_state(today)
 
-        for key in previous_keys:
-            if key not in current_keys:
-                removed.append(previous_keys[key])
-                changes_detected = True
-
-        if changes_detected:
-            messages = [f"📅 Сhanges in game bookings {today}:\n"]
-
-            sections = []
-
-            if added:
-                lines = ["➕ New booking(s):"]
-                for g in added:
-                    abbr = g["game"][:3]
-                    emoji = emoji_map.get(abbr, "")
-                    name = g["responsible"]
-                    mention = "❓" if name.strip().startswith("Ingen") else name_map.get(name, name)
-                    lines.append(f"{emoji}{abbr} | {g['time']} | {mention}")
-                sections.append("\n".join(lines))
-
-            if changed:
-                lines = ["🕴️ Game master assigned (changed):"]
-                for old, new in changed:
-                    abbr = new["game"][:3]
-                    emoji = emoji_map.get(abbr, "")
-                    old_name = old["responsible"]
-                    new_name = new["responsible"]
-                    old_mention = "❓" if old_name.strip().startswith("Ingen") else name_map.get(old_name, old_name)
-                    new_mention = "❓" if new_name.strip().startswith("Ingen") else name_map.get(new_name, new_name)
-                    lines.append(f"{emoji}{abbr} | {new['time']} | {old_mention} → {new_mention}")
-                sections.append("\n".join(lines))
-
-            if removed:
-                lines = ["❌ Game booking cancelled:"]
-                for g in removed:
-                    abbr = g["game"][:3]
-                    emoji = emoji_map.get(abbr, "")
-                    name = g["responsible"]
-                    mention = "❓" if name.strip().startswith("Ingen") else name_map.get(name, name)
-                    lines.append(f"{emoji}{abbr} | {g['time']} | {mention}")
-                sections.append("\n".join(lines))
-
-            messages.append("\n\n".join(sections))  # Разделитель между секциями
-            full_message = "\n".join(messages)
-
-            send_telegram_message("\n".join(messages))
-            print("\n".join(messages))
-            save_state(today_games, today)
+        message = generate_message(today, current_games, previous_games, name_map)
+        if message:
+            send_telegram_message(message)
+            print(message)
+            save_current_state(current_games, today)
         else:
             print("Изменений не обнаружено.")
+    except Exception as e:
+        error_msg = f"❗️Script error: {e}"
+        print(error_msg)
+        send_telegram_message(error_msg)
+    finally:
+        driver.quit()
 
-except Exception as e:
-    error_message = f"❗️Script error: {str(e)}"
-    print(error_message)
-    send_telegram_message(error_message)
-
-finally:
-    driver.quit()
+if __name__ == "__main__":
+    main()
