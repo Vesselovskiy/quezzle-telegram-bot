@@ -1,13 +1,22 @@
 name: Run booking check
 
 on:
-  #schedule:
-  #  - cron: '*/2 * * * *'  # Каждые 2 минуты
-  workflow_dispatch:       # Возможность запустить вручную
+  # schedule:
+  #   - cron: '*/2 * * * *'  # Каждые 2 минуты
+  workflow_dispatch:         # Возможность запустить вручную
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
+
+    env:
+      TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      GIT_REPO: ${{ secrets.GIT_REPO }}
+      GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
+      GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
+      BRAIN_QUEZZLE_USERNAME: ${{ secrets.BRAIN_QUEZZLE_USERNAME }}
+      BRAIN_QUEZZLE_PASSWORD: ${{ secrets.BRAIN_QUEZZLE_PASSWORD }}
 
     steps:
       - name: Checkout repo
@@ -24,4 +33,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run script
-        run: python quezzle_schedule.py 
+        run: python quezzle_schedule.py
