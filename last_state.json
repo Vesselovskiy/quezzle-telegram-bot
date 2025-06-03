@@ -1,54 +1,59 @@
 {
-  "date": "2025-06-03",
+  "date": "2025-06-04",
   "games": [
     {
-      "game": "APO36696",
-      "time": "10:00",
+      "game": "BNK35146",
+      "time": "11:20",
       "responsible": "Elia S"
     },
     {
-      "game": "SHE36695",
-      "time": "10:00",
+      "game": "APO35145",
+      "time": "11:20",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO36694",
-      "time": "10:00",
+      "game": "SHE35144",
+      "time": "11:20",
       "responsible": "Ludvig B"
     },
     {
-      "game": "BNK36693",
-      "time": "10:00",
+      "game": "FRO35143",
+      "time": "11:20",
       "responsible": "Ludvig B"
     },
     {
-      "game": "FRO36687",
-      "time": "14:00",
+      "game": "BNK36676",
+      "time": "15:20",
       "responsible": "Elia S"
     },
     {
-      "game": "APO36338",
+      "game": "APO36096",
       "time": "16:40",
       "responsible": "Elia S"
     },
     {
-      "game": "BNK36588",
+      "game": "BNK36097",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE36098",
+      "time": "16:40",
+      "responsible": "Ludvig B"
+    },
+    {
+      "game": "FRO36099",
+      "time": "16:40",
+      "responsible": "Ludvig B"
+    },
+    {
+      "game": "FRO36660",
       "time": "18:00",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO36653",
+      "game": "APO36659",
       "time": "18:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO36052",
-      "time": "19:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO36039",
-      "time": "19:20",
       "responsible": "Elia S"
     }
   ]
