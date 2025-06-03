@@ -34,19 +34,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run script
+        run: python quezzle_schedule.py ${{ github.event.inputs.mode }}
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           GIT_REPO: ${{ secrets.GIT_REPO }}
           GIT_USERNAME: ${{ secrets.GIT_USERNAME }}
-          GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 👈 Меняем на встроенный токен
+          GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
           BRAIN_QUEZZLE_USERNAME: ${{ secrets.BRAIN_QUEZZLE_USERNAME }}
           BRAIN_QUEZZLE_PASSWORD: ${{ secrets.BRAIN_QUEZZLE_PASSWORD }}
-        run: |
-          if [ "${{ github.event.inputs.mode }}" = "tomorrow" ]; then
-            echo "Sending schedule for tomorrow"
-            python quezzle_schedule.py --tomorrow
-          else
-            echo "Sending schedule for today"
-            python quezzle_schedule.py
-          fi
