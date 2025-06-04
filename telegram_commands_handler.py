@@ -171,6 +171,7 @@ def main():
         git_commit_files([ASSOCIATIONS_FILE, OFFSET_FILE], "Update associations and offset")
     else:
         save_offset(max_update_id)
+        git_commit_files(OFFSET_FILE, "Update offset")
 
 if __name__ == "__main__":
     main()
