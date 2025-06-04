@@ -43,3 +43,4 @@ jobs:
           GIT_TOKEN: ${{ secrets.GIT_TOKEN }}
           BRAIN_QUEZZLE_USERNAME: ${{ secrets.BRAIN_QUEZZLE_USERNAME }}
           BRAIN_QUEZZLE_PASSWORD: ${{ secrets.BRAIN_QUEZZLE_PASSWORD }}
+          BRAIN_QUEZZLE_LINK: ${{ secrets.BRAIN_QUEZZLE_LINK }}
