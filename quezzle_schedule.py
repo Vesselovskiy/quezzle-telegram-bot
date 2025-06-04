@@ -230,13 +230,15 @@ def main(mode="today", no_save=False):
                 mention = format_mention(name, name_map)
                 message_lines.append(f"{emoji}{abbr} | {g['time']} | {mention}")
                 if mode == "tomorrow":
-                    msg_date = "tomorrow"
+                    msg_date = "tomorrow "
+                elif mode == "today":
+                    msg_date = "today "
                 else:
                     msg_date = ""
             if message_lines:
-                full_message = f"📅 Games for {msg_date} {target_date}:\n\n" + "\n".join(message_lines)
+                full_message = f"📅 Games for {msg_date}{target_date}:\n\n" + "\n".join(message_lines)
             else:
-                full_message = f"😱 No games planned for {msg_date} {target_date}"
+                full_message = f"😱 No games planned for {msg_date}{target_date}"
             print(full_message)
             # Отправка в Telegram
             print(f"Отправка сообщения в Telegram")
