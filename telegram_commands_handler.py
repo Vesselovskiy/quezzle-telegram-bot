@@ -2,7 +2,11 @@ import os
 import json
 import requests
 import subprocess
+from io import StringIO
+import sys
+from quezzle_schedule import main as quezzle_main
 from dotenv import load_dotenv
+
 
 load_dotenv()
 
@@ -67,29 +71,19 @@ def send_message(chat_id, text, parse_mode=None):
     requests.post(url, data=data)
 
 # ─── Вызов скрипта расписания с аргументом ──────────────────────────────────────
-def get_schedule_message(mode):
-    import sys
-    import subprocess
-
-    python_exe = sys.executable
-    script_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "quezzle_schedule.py")
-
+def get_schedule_message(mode: str) -> str:
     try:
-        result = subprocess.run(
-            [python_exe, script_path, mode],
-            capture_output=True,
-            text=True,
-            encoding="utf-8",
-            timeout=60
-        )
-        if result.returncode == 0:
-            output_lines = result.stdout.strip().splitlines()
-            for line in reversed(output_lines):
-                if line.strip():
-                    return line.strip()
-            return "🤷 No schedule info found."
-        else:
-            return f"❗️ Schedule script error:\n{result.stderr}"
+        # Перехватываем stdout
+        old_stdout = sys.stdout
+        sys.stdout = mystdout = StringIO()
+
+        quezzle_main(mode, no_save=True)
+
+        sys.stdout = old_stdout
+        output = mystdout.getvalue().strip()
+        print (output)
+        return "" if output else "🤷 No schedule info found."
+
     except Exception as e:
         return f"❗️ Failed to get schedule: {e}"
 
@@ -161,6 +155,11 @@ def main():
         elif text == "/tomorrow":
             print(f"Запрошено завтрашнее расписание @{username}")
             schedule_message = get_schedule_message("tomorrow")
+            send_message(chat_id, schedule_message)
+
+        elif text.startswith("/date "):
+            print(f"Запрошено расписание на определенную дату расписание @{username}")
+            schedule_message = get_schedule_message(text[1:])
             send_message(chat_id, schedule_message)
 
         else:
