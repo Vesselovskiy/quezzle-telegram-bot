@@ -312,5 +312,6 @@ if __name__ == "__main__":
         no_send = True
     if len(sys.argv) > 3 and sys.argv[3] == "--sleep":
         sleep = True
+        print("Время позднее... не надо спамить!")
     if not sleep:
         main(mode, no_save, no_send)
