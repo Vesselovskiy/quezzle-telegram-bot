@@ -206,8 +206,12 @@ def generate_message(today, current, previous, name_map, state_exists):
 
 
 def main(mode="today", no_save=False, no_send=False, sleep=False):
+    if mode == "sleep":
+        print("Время позднее... не надо спамить!")
+        return
+
     # Определяем целевую дату
-    if mode == "today":
+    elif mode == "today":
         target_date = datetime.now().strftime("%Y-%m-%d")
     elif mode == "tomorrow":
         target_date = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
@@ -310,8 +314,4 @@ if __name__ == "__main__":
         no_save = True
     if len(sys.argv) > 3 and sys.argv[3] == "--no-send":
         no_send = True
-    if len(sys.argv) > 2 and sys.argv[2] == "--sleep":
-        sleep = True
-        print("Время позднее... не надо спамить!")
-    if not sleep:
-        main(mode, no_save, no_send)
+    main(mode, no_save, no_send)
