@@ -13,11 +13,19 @@ import json
 import os
 import sys
 import subprocess
+import tzdata
 
 try:
     from zoneinfo import ZoneInfo
-except ImportError:
-    from pytz import timezone as ZoneInfo
+    tz = ZoneInfo("Europe/Stockholm")
+except Exception:
+    try:
+        import pytz
+        tz = pytz.timezone("Europe/Stockholm")
+    except Exception:
+        tz = None  # fallback, но лучше явно завершить с ошибкой
+        print("❗ Не удалось найти временную зону Europe/Stockholm. Установите tzdata или pytz.")
+
 
 os.environ["ABSL_LOG_LEVEL"] = "3"
 load_dotenv()
