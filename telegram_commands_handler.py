@@ -4,10 +4,10 @@ import requests
 import subprocess
 from io import StringIO
 import sys
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 from quezzle_schedule import main as quezzle_main
 from dotenv import load_dotenv
-
+os.environ["ABSL_LOG_LEVEL"] = "3"
 load_dotenv()
 
 TOKEN = os.getenv("TELEGRAM_TOKEN")
@@ -94,15 +94,15 @@ def send_message(chat_id: int, text: str, parse_mode: str = None) -> None:
     requests.post(url, data=data)
 
 # ─── Вызов скрипта расписания с аргументом ─────────────────────────────────────
-def get_schedule_message(mode: str) -> str:
+def get_schedule_message(mode: str, ) -> str:
     try:
         old_stdout = sys.stdout
         sys.stdout = mystdout = StringIO()
-        quezzle_main(mode, no_save=True)
+        mesage = quezzle_main(mode, no_save=True, no_send=True)
         sys.stdout = old_stdout
         output = mystdout.getvalue().strip()
         print(output)
-        return "" if output else "🤷 No schedule info found."
+        return mesage if (output or mesage)  else "🤷 No schedule info found."
     except Exception as e:
         return f"❗️ Failed to get schedule: {e}"
 
@@ -114,6 +114,7 @@ def main() -> None:
     updates = res.json().get("result", [])
 
     if not updates:
+        print ("Команд не было... пронесло...")
         return
 
     associations = load_associations()

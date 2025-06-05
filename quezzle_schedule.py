@@ -12,7 +12,7 @@ import json
 import os
 import sys
 import subprocess
-
+os.environ["ABSL_LOG_LEVEL"] = "3"
 load_dotenv()
 
 # ─── Константы ─────────────────────────────────────────────────────────────────
@@ -28,8 +28,9 @@ CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 STATE_FILE = os.path.join(BASE_DIR, "last_state.json")
 ASSOCIATIONS_FILE = os.path.join(BASE_DIR, "associations.json")
+CHAT_IDS_FILE = os.path.join(BASE_DIR, "telegram_chat_ids.json")
 
-EMOJI_MAP = {"SHE": "🕵️", "FRO": "⚱️", "BNK": "💰", "APO": "☣️"}
+EMOJI_MAP = {"SHE": "🔍", "FRO": "🐪", "BNK": "💲", "APO": "💀"}
 
 # ─── Утилиты ───────────────────────────────────────────────────────────────────
 def setup_driver():
@@ -78,6 +79,28 @@ def load_name_map():
         print(f"⚠️ Ошибка чтения файла {ASSOCIATIONS_FILE}: {e}")
         return {}
 
+def load_chat_ids():
+    if os.path.exists(CHAT_IDS_FILE):
+        try:
+            with open(CHAT_IDS_FILE, "r") as f:
+                return json.load(f)
+        except Exception as e:
+            print(f"⚠️ Ошибка чтения {CHAT_IDS_FILE}: {e}")
+            return []
+    return []
+
+def send_telegram_message(text):
+    chat_ids = load_chat_ids()
+    if not chat_ids:
+        print("⚠️ Нет chat_id для рассылки.")
+        return
+    for chat_id in chat_ids:
+        print(f"Отправка сообщения в Telegram chat_id={chat_id}")
+        requests.post(
+            f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
+            data={"chat_id": chat_id, "text": text}
+        )
+
 def load_last_state(today):
     if os.path.exists(STATE_FILE):
         try:
@@ -114,7 +137,10 @@ def git_commit_state(today):
         print(f"⚠️ Ошибка Git: {e}")
 
 def format_mention(name, name_map):
-    return "❓" if name.strip().startswith("Ingen") else name_map.get(name, name)
+    for username, real_name in name_map.items():
+        if real_name == name:
+            return f"@{username}"
+    return "❓" if name.strip().startswith("Ingen") else name
 
 def generate_message(today, current, previous, name_map, state_exists):
     # Если игр нет
@@ -178,10 +204,11 @@ def generate_message(today, current, previous, name_map, state_exists):
     return f"🆕 Сhanges in game bookings {today}:\n\n" + "\n\n".join(sections)
 
 
-def main(mode="today", no_save=False):
+def main(mode="today", no_save=False, no_send=False):
     # Определяем целевую дату
     if mode == "today":
         target_date = datetime.now().strftime("%Y-%m-%d")
+        target_date = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     elif mode == "tomorrow":
         target_date = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     elif mode.startswith("date "):
@@ -190,10 +217,10 @@ def main(mode="today", no_save=False):
             # Проверяем формат даты
             datetime.strptime(target_date, "%Y-%m-%d")
         except (IndexError, ValueError):
-            print("❗ Неверный формат даты. Используйте: date YYYY-MM-DD")
+            print("❗ Неверный формат даты. Должно быть: date YYYY-MM-DD")
             return
     else:
-        print("❗ Неизвестный режим. Используйте: today, tomorrow или date YYYY-MM-DD")
+        print("❗ Неизвестный режим. Можно: today, tomorrow или date YYYY-MM-DD")
         return
 
     name_map = load_name_map()
@@ -236,17 +263,15 @@ def main(mode="today", no_save=False):
                 else:
                     msg_date = ""
             if message_lines:
-                full_message = f"📅 Games for {msg_date}{target_date}:\n\n" + "\n".join(message_lines)
+                full_message = f"🗓️ Games for {msg_date}{target_date}:\n\n" + "\n".join(message_lines)
             else:
                 full_message = f"😱 No games planned for {msg_date}{target_date}"
             print(full_message)
-            # Отправка в Telegram
-            print(f"Отправка сообщения в Telegram")
-            requests.post(
-                f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-                data={"chat_id": CHAT_ID, "text": full_message}
-            )
-            return
+            if not no_send:
+                send_telegram_message(full_message)
+                return
+            else:
+                return (full_message)
 
         # mode == "today"
         previous_games, state_exists = load_last_state(target_date)
@@ -254,12 +279,10 @@ def main(mode="today", no_save=False):
 
         if message:
             print(message)
-            # Отправка в Telegram
-            print(f"Отправка сообщения в Telegram")
-            requests.post(
-                f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage",
-                data={"chat_id": CHAT_ID, "text": message}
-            )
+            if not no_send:
+                send_telegram_message(message)
+            else:
+                return (full_message)
             if not no_save:
                 print(f"Сохранение текущего состояния в файл {STATE_FILE}")
                 # Сохраняем текущее состояние и пушим в git
@@ -278,10 +301,13 @@ if __name__ == "__main__":
     import sys
     mode = "today"
     no_save = False
+    no_send = False
 
     if len(sys.argv) > 1:
         mode = sys.argv[1]
     if len(sys.argv) > 2 and sys.argv[2] == "--no-save":
         no_save = True
+    if len(sys.argv) > 3 and sys.argv[3] == "--no-send":
+        no_send = True
 
-    main(mode, no_save)
+    main(mode, no_save, no_send)
