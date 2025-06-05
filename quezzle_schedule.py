@@ -1,3 +1,4 @@
+from time import sleep
 from selenium import webdriver  # type: ignore
 from selenium.webdriver.common.by import By  # type: ignore
 from selenium.webdriver.common.keys import Keys  # type: ignore
@@ -204,11 +205,10 @@ def generate_message(today, current, previous, name_map, state_exists):
     return f"🆕 Сhanges in game bookings {today}:\n\n" + "\n\n".join(sections)
 
 
-def main(mode="today", no_save=False, no_send=False):
+def main(mode="today", no_save=False, no_send=False, sleep=False):
     # Определяем целевую дату
     if mode == "today":
         target_date = datetime.now().strftime("%Y-%m-%d")
-        target_date = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     elif mode == "tomorrow":
         target_date = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     elif mode.startswith("date "):
@@ -302,6 +302,7 @@ if __name__ == "__main__":
     mode = "today"
     no_save = False
     no_send = False
+    sleep = False
 
     if len(sys.argv) > 1:
         mode = sys.argv[1]
@@ -309,5 +310,7 @@ if __name__ == "__main__":
         no_save = True
     if len(sys.argv) > 3 and sys.argv[3] == "--no-send":
         no_send = True
-
-    main(mode, no_save, no_send)
+    if len(sys.argv) > 3 and sys.argv[3] == "--sleep":
+        sleep = True
+    if not sleep:
+        main(mode, no_save, no_send)
