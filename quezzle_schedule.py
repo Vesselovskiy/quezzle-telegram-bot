@@ -13,6 +13,12 @@ import json
 import os
 import sys
 import subprocess
+
+try:
+    from zoneinfo import ZoneInfo
+except ImportError:
+    from pytz import timezone as ZoneInfo
+
 os.environ["ABSL_LOG_LEVEL"] = "3"
 load_dotenv()
 
@@ -212,7 +218,9 @@ def main(mode="today", no_save=False, no_send=False, sleep=False):
 
     # Определяем целевую дату
     elif mode == "today":
-        target_date = datetime.now().strftime("%Y-%m-%d")
+        tz = ZoneInfo("Europe/Stockholm")
+        today_dt = datetime.now(tz)
+        target_date = today_dt.strftime("%Y-%m-%d")
     elif mode == "tomorrow":
         target_date = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     elif mode.startswith("date "):
