@@ -4,27 +4,27 @@ import requests
 import subprocess
 from io import StringIO
 import sys
+from typing import List, Dict, Any
 from quezzle_schedule import main as quezzle_main
 from dotenv import load_dotenv
-
 
 load_dotenv()
 
 TOKEN = os.getenv("TELEGRAM_TOKEN")
-CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 GIT_USERNAME = os.getenv("GIT_USERNAME")
 GIT_TOKEN = os.getenv("GIT_TOKEN")
 GIT_REPO = os.getenv("GIT_REPO")
 
 ASSOCIATIONS_FILE = "associations.json"
 OFFSET_FILE = "last_update_id.txt"
+CHAT_IDS_FILE = "telegram_chat_ids.json"
 
 # ─── Git Commit ───────────────────────────────────────────────────────────────
-def set_authenticated_git_remote():
+def set_authenticated_git_remote() -> None:
     remote_url = f"https://{GIT_USERNAME}:{GIT_TOKEN}@github.com/{GIT_USERNAME}/{GIT_REPO}.git"
     subprocess.run(["git", "remote", "set-url", "origin", remote_url], check=True)
 
-def git_commit_files(files: list, message: str):
+def git_commit_files(files: List[str], message: str) -> None:
     try:
         set_authenticated_git_remote()
         subprocess.run(["git", "config", "user.name", "TelegramBot"], check=True)
@@ -37,58 +37,77 @@ def git_commit_files(files: list, message: str):
         print(f"⚠️ Git ошибка: {e}")
 
 # ─── Работа с ассоциациями ────────────────────────────────────────────────────
-def load_associations():
-    if os.path.exists(ASSOCIATIONS_FILE):
-        with open(ASSOCIATIONS_FILE, "r") as f:
-            return json.load(f)
-    return {}
+def load_json_file(path: str, default: Any) -> Any:
+    if os.path.exists(path):
+        try:
+            with open(path, "r") as f:
+                return json.load(f)
+        except Exception:
+            return default
+    return default
 
-def save_associations(data):
-    with open(ASSOCIATIONS_FILE, "w") as f:
+def save_json_file(path: str, data: Any) -> None:
+    with open(path, "w") as f:
         json.dump(data, f, indent=2)
 
+def load_associations() -> Dict[str, str]:
+    return load_json_file(ASSOCIATIONS_FILE, {})
+
+def save_associations(data: Dict[str, str]) -> None:
+    save_json_file(ASSOCIATIONS_FILE, data)
+
 # ─── Работа с offset ──────────────────────────────────────────────────────────
-def load_offset():
+def load_offset() -> int:
     if os.path.exists(OFFSET_FILE):
         with open(OFFSET_FILE, "r") as f:
             content = f.read().strip()
             if content.isdigit():
                 return int(content)
-            else:
-                return 0
     return 0
 
-def save_offset(offset):
+def save_offset(offset: int) -> None:
     with open(OFFSET_FILE, "w") as f:
         f.write(str(offset))
 
+# ─── Работа с chat_ids ────────────────────────────────────────────────────────
+def load_chat_ids() -> List[int]:
+    return load_json_file(CHAT_IDS_FILE, [])
+
+def save_chat_ids(chat_ids: List[int]) -> None:
+    save_json_file(CHAT_IDS_FILE, chat_ids)
+
+def add_chat_id(chat_id: int) -> bool:
+    chat_ids = set(load_chat_ids())
+    if chat_id not in chat_ids:
+        chat_ids.add(chat_id)
+        save_chat_ids(list(chat_ids))
+        print(f"Добавлен новый chat_id: {chat_id}")
+        return True
+    return False
+
 # ─── Отправка сообщения в Telegram ─────────────────────────────────────────────
-def send_message(chat_id, text, parse_mode=None):
+def send_message(chat_id: int, text: str, parse_mode: str = None) -> None:
     url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
     data = {"chat_id": chat_id, "text": text}
     if parse_mode:
         data["parse_mode"] = parse_mode
     requests.post(url, data=data)
 
-# ─── Вызов скрипта расписания с аргументом ──────────────────────────────────────
+# ─── Вызов скрипта расписания с аргументом ─────────────────────────────────────
 def get_schedule_message(mode: str) -> str:
     try:
-        # Перехватываем stdout
         old_stdout = sys.stdout
         sys.stdout = mystdout = StringIO()
-
         quezzle_main(mode, no_save=True)
-
         sys.stdout = old_stdout
         output = mystdout.getvalue().strip()
-        print (output)
+        print(output)
         return "" if output else "🤷 No schedule info found."
-
     except Exception as e:
         return f"❗️ Failed to get schedule: {e}"
 
 # ─── Основная логика ──────────────────────────────────────────────────────────
-def main():
+def main() -> None:
     url = f"https://api.telegram.org/bot{TOKEN}/getUpdates"
     params = {"offset": load_offset() + 1}
     res = requests.get(url, params=params)
@@ -100,6 +119,7 @@ def main():
     associations = load_associations()
     max_update_id = 0
     changed = False
+    chat_ids_changed = False
 
     for update in updates:
         max_update_id = max(max_update_id, update["update_id"])
@@ -113,17 +133,23 @@ def main():
             continue
 
         chat_id = message["chat"]["id"]
+        # Автоматически добавляем chat_id в рассылку
+        if add_chat_id(chat_id):
+            chat_ids_changed = True
 
-        if (text == "/start") or (text == "/help"):
+        if text in ("/start", "/help"):
             welcome_message = (
-            "👋 Hello! I'm Quzzle Schedule Bot that Sergey Veselovsky made for his beloved wife.\n \n"
-            "Use \n"
-            "/today to get today's schedule, \n"
-            "/tomorrow to see tomorrow's schedule, and \n"
-            "/iam to set your name (e.g. /iam John D), \n"
+                "👋 Hello! I'm Quzzle Schedule Bot that Sergey Veselovsky made for his beloved wife.\n\n"
+                "Use:\n"
+                "/today to get today's schedule,\n"
+                "/tomorrow to see tomorrow's schedule,\n"
+                "/date YYYY-MM-DD to get schedule for any date,\n"
+                "/iam to set your name (e.g. /iam John D),\n"
+                "/whoami to see your current name,\n"
+                "/forgetme to remove your association."
             )
             send_message(chat_id, welcome_message)
-        
+
         elif text.startswith("/iam "):
             claimed_name = text[5:].strip()
             associations[username] = claimed_name
@@ -158,17 +184,20 @@ def main():
             send_message(chat_id, schedule_message)
 
         elif text.startswith("/date "):
-            print(f"Запрошено расписание на определенную дату расписание @{username}")
+            print(f"Запрошено расписание на определенную дату @{username}")
             schedule_message = get_schedule_message(text[1:])
             send_message(chat_id, schedule_message)
 
         else:
-            send_message(chat_id, "❓ Unknown command. Try /today or /tomorrow or /iam YourName (e.g. /iam John D)")
+            send_message(chat_id, "❓ Unknown command. Try /today, /tomorrow, /date YYYY-MM-DD, or /iam YourName (e.g. /iam John D)")
 
-    if changed:
+    if changed or chat_ids_changed:
+        files = [ASSOCIATIONS_FILE, OFFSET_FILE]
+        if chat_ids_changed:
+            files.append(CHAT_IDS_FILE)
         save_associations(associations)
         save_offset(max_update_id)
-        git_commit_files([ASSOCIATIONS_FILE, OFFSET_FILE], "Update associations and offset")
+        git_commit_files(files, "Update associations, chat_ids and offset")
     else:
         save_offset(max_update_id)
         git_commit_files([OFFSET_FILE], "Update offset")
