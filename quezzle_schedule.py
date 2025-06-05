@@ -206,7 +206,7 @@ def generate_message(today, current, previous, name_map, state_exists):
 
 
 def main(mode="today", no_save=False, no_send=False, sleep=False):
-    if mode == "sleep":
+    if mode == "sleep" and not (no_save) and not (no_send):
         print("Время позднее... не надо спамить!")
         return
 
