@@ -260,12 +260,11 @@ def main(mode="today", no_save=False, no_send=False, sleep=False):
                 name = g["responsible"]
                 mention = format_mention(name, name_map)
                 message_lines.append(f"{emoji}{abbr} | {g['time']} | {mention}")
+                msg_date = ""
                 if mode == "tomorrow":
                     msg_date = "tomorrow "
                 elif mode == "today":
                     msg_date = "today "
-                else:
-                    msg_date = ""
             if message_lines:
                 full_message = f"🗓️ Games for {msg_date}{target_date}:\n\n" + "\n".join(message_lines)
             else:
