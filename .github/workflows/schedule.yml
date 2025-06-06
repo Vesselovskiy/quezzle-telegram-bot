@@ -10,6 +10,10 @@ on:
         required: false
         default: 'today'
 
+concurrency:
+  group: quezzle-schedule-lock
+  cancel-in-progress: false
+
 permissions:
   contents: write  # ✅ даем GitHub Actions право делать git push
 

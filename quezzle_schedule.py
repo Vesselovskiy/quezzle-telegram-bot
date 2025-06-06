@@ -45,7 +45,7 @@ STATE_FILE = os.path.join(BASE_DIR, "last_state.json")
 ASSOCIATIONS_FILE = os.path.join(BASE_DIR, "associations.json")
 CHAT_IDS_FILE = os.path.join(BASE_DIR, "telegram_chat_ids.json")
 
-EMOJI_MAP = {"SHE": "🔍", "FRO": "🐪", "BNK": "💲", "APO": "💀"}
+EMOJI_MAP = {"SHE": "🔍", "FRO": "🐪", "BNK": "💶", "APO": "☣️"}
 
 # ─── Утилиты ───────────────────────────────────────────────────────────────────
 def setup_driver():
