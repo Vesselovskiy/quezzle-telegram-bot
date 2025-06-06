@@ -1,39 +1,89 @@
 {
-  "date": "2025-06-05",
+  "date": "2025-06-06",
   "games": [
     {
-      "game": "APO36690",
+      "game": "BNK36755",
+      "time": "11:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "FRO36708",
+      "time": "11:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "APO35273",
+      "time": "12:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO35271",
+      "time": "12:40",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "BNK35274",
+      "time": "12:40",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "SHE35272",
+      "time": "12:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO36688",
+      "time": "14:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK36486",
+      "time": "14:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "SHE36485",
       "time": "14:00",
       "responsible": "Natalya V"
     },
     {
-      "game": "BNK36730",
+      "game": "FRO36684",
+      "time": "15:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "BNK36345",
+      "time": "15:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "SHE34691",
+      "time": "15:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK36764",
+      "time": "16:40",
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
+    },
+    {
+      "game": "FRO36763",
       "time": "16:40",
       "responsible": "Elena W"
     },
     {
-      "game": "FRO36445",
-      "time": "16:40",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "SHE36621",
+      "game": "FRO36728",
       "time": "18:00",
       "responsible": "Elena W"
     },
     {
-      "game": "FRO36555",
-      "time": "18:00",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "BNK36251",
-      "time": "18:00",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "BNK36689",
+      "game": "BNK36519",
       "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "SHE36651",
+      "time": "22:00",
       "responsible": "Elena W"
     }
   ]
