@@ -172,6 +172,8 @@ def generate_message(today, current, previous, name_map, state_exists):
     # Если ранее не было состояния (первый запуск), но игры есть — отправляем все
     if not previous:
         print(f"Первый запуск, надо отправить сообщение со всеми играми за сегодня ({today})")
+    if not previous:
+        print(f"Первый запуск, надо отправить сообщение со всеми играми за сегодня ({today})")
         return "🗓️ Today's games ({}):\n\n".format(today) + "\n".join([
             f"{EMOJI_MAP.get(g['game'][:3], '')}{g['game'][:3]} | {g['time']} | {format_mention(g['responsible'], name_map)}"
             for g in current
@@ -196,28 +198,26 @@ def generate_message(today, current, previous, name_map, state_exists):
     if not (added or changed or removed):
         print(f"Нет изменений в расписании на {today}, сообщение нет нужды отправлять")
         return ""
-
     # Формируем сообщение об изменениях
     sections = []
     print(f"Изменения в расписании на {today}, отправим сообщение")
     if added:
-        sections.append("\n".join(["➕ New booking(s):"] + [
-            f"{EMOJI_MAP.get(g['game'][:3], '')}{g['game'][:3]} | {g['time']} | {format_mention(g['responsible'], name_map)}"
+        sections.append("\n".join([f"➕ New booking(s) ({today}):"] + [
+            f"{EMOJI_MAP.get(g['game'][:3], '❔')}{g['game'][:3]} | {g['time']} | {format_mention(g['responsible'], name_map)}"
             for g in added
         ]))
-    if changed:
-        sections.append("\n".join(["🕴️ Game master assigned (changed):"] + [
-            f"{EMOJI_MAP.get(n['game'][:3], '')}{n['game'][:3]} | {n['time']} | {format_mention(o['responsible'], name_map)} → {format_mention(n['responsible'], name_map)}"
-            for o, n in changed
-        ]))
+    # if changed:
+    #     sections.append("\n".join([f"🕴️ Game master assigned (changed) ({today}):"] + [
+    #         f"{EMOJI_MAP.get(n['game'][:3], '❔')}{n['game'][:3]} | {n['time']} | {format_mention(o['responsible'], name_map)} → {format_mention(n['responsible'], name_map)}"
+    #         for o, n in changed
+    #     ]))
     if removed:
-        sections.append("\n".join(["❌ Game booking cancelled:"] + [
-            f"{EMOJI_MAP.get(g['game'][:3], '')}{g['game'][:3]} | {g['time']} | {format_mention(g['responsible'], name_map)}"
+        sections.append("\n".join([f"❌ Game booking cancelled ({today}):"] + [
+            f"{EMOJI_MAP.get(g['game'][:3], '❔')}{g['game'][:3]} | {g['time']} | {format_mention(g['responsible'], name_map)}"
             for g in removed
         ]))
 
-    return f"🆕 Сhanges in game bookings {today}:\n\n" + "\n\n".join(sections)
-
+    return "\n\n".join(sections)
 
 def main(mode="today", no_save=False, no_send=False, sleep=False):
     if mode == "sleep" and not (no_save) and not (no_send):
@@ -277,7 +277,7 @@ def main(mode="today", no_save=False, no_send=False, sleep=False):
                 msg_date = "today "
             for g in current_games:
                 abbr = g["game"][:3]
-                emoji = EMOJI_MAP.get(abbr, "")
+                emoji = EMOJI_MAP.get(abbr, "❔")
                 name = g["responsible"]
                 mention = format_mention(name, name_map)
                 message_lines.append(f"{emoji}{abbr} | {g['time']} | {mention}")
