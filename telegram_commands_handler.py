@@ -31,6 +31,7 @@ def git_commit_files(files: List[str], message: str) -> None:
         subprocess.run(["git", "config", "user.email", "telegram@bot.com"], check=True)
         subprocess.run(["git", "add"] + files, check=True)
         subprocess.run(["git", "commit", "-m", message], check=True)
+        subprocess.run(["git", "pull", "--rebase"], check=True) 
         subprocess.run(["git", "push"], check=True)
         print("✅ Изменения (телеграм команды) закоммичены и запушены")
     except subprocess.CalledProcessError as e:

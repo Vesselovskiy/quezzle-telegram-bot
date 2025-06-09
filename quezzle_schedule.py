@@ -146,6 +146,7 @@ def git_commit_state(today):
         subprocess.run(["git", "config", "user.email", "statefileupdate@bot.com"], check=True)
         subprocess.run(["git", "add", STATE_FILE], check=True)
         subprocess.run(["git", "commit", "-m", f"Update state for {today}"], check=True)
+        subprocess.run(["git", "pull", "--rebase"], check=True) 
         subprocess.run(["git", "push"], check=True)
         print("✅ Коммит и пуш состояния выполнен")
     except subprocess.CalledProcessError as e:
