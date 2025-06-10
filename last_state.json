@@ -1,64 +1,34 @@
 {
-  "date": "2025-06-09",
+  "date": "2025-06-10",
   "games": [
     {
-      "game": "BNK36692",
+      "game": "SHE36054",
       "time": "10:00",
-      "responsible": "Natalya V"
+      "responsible": "Elia S"
     },
     {
-      "game": "SHE36691",
+      "game": "BNK36055",
       "time": "10:00",
-      "responsible": "Natalya V"
+      "responsible": "Elia S"
     },
     {
-      "game": "BNK36819",
-      "time": "11:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "APO36701",
-      "time": "14:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK36700",
-      "time": "14:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "SHE36820",
-      "time": "16:40",
+      "game": "FRO36053",
+      "time": "10:00",
       "responsible": "Ludvig B"
     },
     {
-      "game": "APO36818",
-      "time": "16:40",
+      "game": "APO36273",
+      "time": "12:40",
       "responsible": "Elia S"
     },
     {
-      "game": "BNK36816",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO36824",
-      "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
-    },
-    {
-      "game": "SHE36426",
+      "game": "APO36491",
       "time": "18:00",
       "responsible": "Elia S"
     },
     {
-      "game": "BNK36822",
-      "time": "19:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE36668",
-      "time": "20:40",
+      "game": "BNK36490",
+      "time": "18:00",
       "responsible": "Elia S"
     }
   ]
