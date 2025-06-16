@@ -1,24 +1,39 @@
 {
-  "date": "2025-06-15",
+  "date": "2025-06-16",
   "games": [
     {
-      "game": "SHE36859",
-      "time": "12:40",
+      "game": "BNK36608",
+      "time": "15:20",
       "responsible": "Elia S"
     },
     {
-      "game": "APO36885",
-      "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
+      "game": "SHE36607",
+      "time": "15:20",
+      "responsible": "Elia S"
     },
     {
-      "game": "SHE36821",
+      "game": "FRO36606",
+      "time": "15:20",
+      "responsible": "Ludvig B"
+    },
+    {
+      "game": "BNK36858",
       "time": "16:40",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO36806",
+      "game": "FRO36685",
       "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK36624",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO36623",
+      "time": "18:00",
       "responsible": "Elia S"
     }
   ]
