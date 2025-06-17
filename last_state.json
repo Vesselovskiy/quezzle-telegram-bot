@@ -1,40 +1,45 @@
 {
-  "date": "2025-06-16",
+  "date": "2025-06-17",
   "games": [
     {
-      "game": "BNK36608",
-      "time": "15:20",
+      "game": "FRO36937",
+      "time": "10:00",
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
+    },
+    {
+      "game": "BNK36920",
+      "time": "12:40",
       "responsible": "Elia S"
     },
     {
-      "game": "SHE36607",
-      "time": "15:20",
+      "game": "BNK36277",
+      "time": "16:40",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO36606",
-      "time": "15:20",
+      "game": "SHE36013",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO36843",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK36476",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE36475",
+      "time": "18:00",
       "responsible": "Ludvig B"
     },
     {
-      "game": "BNK36858",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO36685",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK36624",
+      "game": "APO36474",
       "time": "18:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO36623",
-      "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Ludvig B"
     }
   ]
 }
