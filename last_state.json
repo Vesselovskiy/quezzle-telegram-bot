@@ -1,30 +1,10 @@
 {
-  "date": "2025-06-19",
+  "date": "2025-06-20",
   "games": [
     {
-      "game": "BNK36948",
-      "time": "11:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "FRO36887",
-      "time": "14:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "FRO36941",
-      "time": "15:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK36744",
-      "time": "19:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "FRO36955",
-      "time": "20:40",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
+      "game": "APO36950",
+      "time": "18:00",
+      "responsible": "Elena W"
     }
   ]
 }
