@@ -2,6 +2,11 @@
   "date": "2025-06-27",
   "games": [
     {
+      "game": "FRO37050",
+      "time": "14:00",
+      "responsible": "Elena W"
+    },
+    {
       "game": "BNK36424",
       "time": "15:20",
       "responsible": "Elena W"
