@@ -1,120 +1,15 @@
 {
-  "date": "2025-06-28",
+  "date": "2025-06-29",
   "games": [
     {
-      "game": "APO36989",
-      "time": "11:20",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "FRO36683",
-      "time": "11:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE36682",
-      "time": "11:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE37066",
-      "time": "12:40",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "FRO36990",
+      "game": "APO37095",
       "time": "12:40",
       "responsible": "Elia S"
     },
     {
-      "game": "BNK36745",
-      "time": "12:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE37038",
-      "time": "14:00",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "APO36766",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO35461",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK35462",
-      "time": "14:00",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "SHE36548",
+      "game": "BNK36884",
       "time": "15:20",
       "responsible": "Elia S"
-    },
-    {
-      "game": "APO36547",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK35460",
-      "time": "15:20",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "FRO35459",
-      "time": "15:20",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "SHE37041",
-      "time": "16:40",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "APO36979",
-      "time": "16:40",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "FRO36938",
-      "time": "16:40",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK36817",
-      "time": "16:40",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "SHE37067",
-      "time": "18:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "APO37002",
-      "time": "18:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "FRO37094",
-      "time": "19:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK37091",
-      "time": "19:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK37092",
-      "time": "20:40",
-      "responsible": "Natalya V"
     }
   ]
 }
