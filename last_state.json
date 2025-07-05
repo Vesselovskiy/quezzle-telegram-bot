@@ -64,7 +64,7 @@
     {
       "game": "SHE37182",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
+      "responsible": "Ludvig B"
     },
     {
       "game": "APO37030",
@@ -104,12 +104,17 @@
     {
       "game": "BNK37183",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
+      "responsible": "Natalya V"
     },
     {
       "game": "APO37123",
       "time": "19:20",
       "responsible": "Elena W"
+    },
+    {
+      "game": "FRO37184",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
     }
   ]
 }
