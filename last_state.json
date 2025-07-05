@@ -1,33 +1,93 @@
 {
-  "date": "2025-07-04",
+  "date": "2025-07-05",
   "games": [
     {
-      "game": "SHE37160",
+      "game": "FRO36954",
+      "time": "10:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO37170",
+      "time": "11:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO37169",
+      "time": "12:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO37172",
+      "time": "12:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK37174",
+      "time": "12:40",
+      "responsible": "Ludvig B"
+    },
+    {
+      "game": "FRO37127",
       "time": "14:00",
-      "responsible": "Elena W"
+      "responsible": "Elia S"
     },
     {
-      "game": "FRO37112",
+      "game": "APO37162",
+      "time": "14:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK37163",
+      "time": "14:00",
+      "responsible": "Ludvig B"
+    },
+    {
+      "game": "BNK37152",
       "time": "15:20",
-      "responsible": "Elena W"
+      "responsible": "Elia S"
     },
     {
-      "game": "BNK37167",
+      "game": "FRO37154",
+      "time": "15:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO37166",
       "time": "15:20",
       "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
     },
     {
-      "game": "APO37022",
+      "game": "APO37030",
       "time": "16:40",
       "responsible": "Elena W"
     },
     {
-      "game": "FRO37021",
+      "game": "BNK36587",
       "time": "16:40",
       "responsible": "Elena W"
     },
     {
-      "game": "APO37034",
+      "game": "FRO37126",
+      "time": "16:40",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "FRO37065",
+      "time": "18:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "SHE37116",
+      "time": "18:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "APO37128",
+      "time": "18:00",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "APO37123",
       "time": "19:20",
       "responsible": "Elena W"
     }
