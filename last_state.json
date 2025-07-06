@@ -24,7 +24,7 @@
     {
       "game": "BNK37193",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
+      "responsible": "Elia S"
     },
     {
       "game": "APO37188",
@@ -34,6 +34,11 @@
     {
       "game": "SHE37192",
       "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO37203",
+      "time": "18:00",
       "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
     }
   ]
