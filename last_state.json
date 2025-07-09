@@ -1,55 +1,30 @@
 {
-  "date": "2025-07-08",
+  "date": "2025-07-09",
   "games": [
     {
-      "game": "APO37222",
-      "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
-    },
-    {
-      "game": "BNK37225",
-      "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
-    },
-    {
-      "game": "FRO37226",
-      "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
-    },
-    {
-      "game": "BNK37212",
+      "game": "APO37207",
       "time": "15:20",
       "responsible": "Elia S"
     },
     {
-      "game": "BNK37201",
+      "game": "APO36980",
       "time": "16:40",
       "responsible": "Elia S"
     },
     {
-      "game": "SHE37205",
+      "game": "BNK37113",
       "time": "16:40",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO37228",
-      "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
-    },
-    {
-      "game": "FRO37111",
+      "game": "BNK37210",
       "time": "18:00",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO37217",
+      "game": "FRO37224",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
-    },
-    {
-      "game": "SHE37223",
-      "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B"
+      "responsible": "Elia S"
     }
   ]
 }
