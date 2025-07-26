@@ -59,12 +59,17 @@
     {
       "game": "BNK37619",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+      "responsible": "Elena W"
     },
     {
       "game": "SHE37614",
       "time": "19:20",
       "responsible": "Elena W"
+    },
+    {
+      "game": "BNK37626",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
     }
   ]
 }
