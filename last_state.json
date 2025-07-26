@@ -42,6 +42,11 @@
       "responsible": "Elia S"
     },
     {
+      "game": "APO37616",
+      "time": "15:20",
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+    },
+    {
       "game": "APO37230",
       "time": "16:40",
       "responsible": "Elena W"
@@ -54,7 +59,7 @@
     {
       "game": "SHE37614",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+      "responsible": "Elena W"
     }
   ]
 }
