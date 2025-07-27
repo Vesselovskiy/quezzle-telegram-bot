@@ -1,89 +1,19 @@
 {
-  "date": "2025-07-26",
+  "date": "2025-07-27",
   "games": [
     {
-      "game": "FRO37405",
-      "time": "10:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK37406",
-      "time": "11:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE37219",
-      "time": "12:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO37220",
-      "time": "12:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK37051",
+      "game": "SHE37617",
       "time": "14:00",
-      "responsible": "Elia S"
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
     },
     {
-      "game": "SHE37609",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK37310",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE37419",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO37616",
-      "time": "15:20",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "APO37230",
-      "time": "16:40",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "APO37607",
+      "game": "APO37414",
       "time": "18:00",
-      "responsible": "Elena W"
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
     },
     {
-      "game": "BNK37619",
-      "time": "18:00",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "SHE37614",
-      "time": "19:20",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "BNK37626",
-      "time": "19:20",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "BNK37627",
+      "game": "FRO37350",
       "time": "20:40",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "SHE37628",
-      "time": "22:00",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "BNK37629",
-      "time": "22:00",
       "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
     }
   ]
