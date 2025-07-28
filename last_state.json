@@ -1,29 +1,29 @@
 {
-  "date": "2025-07-27",
+  "date": "2025-07-28",
   "games": [
     {
-      "game": "SHE37617",
-      "time": "14:00",
+      "game": "SHE37604",
+      "time": "11:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "SHE37672",
+      "time": "15:20",
       "responsible": "Ludvig B"
     },
     {
-      "game": "APO37414",
+      "game": "BNK37673",
+      "time": "15:20",
+      "responsible": "Ludvig B"
+    },
+    {
+      "game": "APO37632",
+      "time": "16:40",
+      "responsible": "Ludvig B"
+    },
+    {
+      "game": "BNK37618",
       "time": "18:00",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "BNK37633",
-      "time": "18:00",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "SHE37636",
-      "time": "19:20",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "BNK37350",
-      "time": "20:40",
       "responsible": "Ludvig B"
     }
   ]
