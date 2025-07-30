@@ -19,7 +19,7 @@
     {
       "game": "APO37717",
       "time": "12:40",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+      "responsible": "Elia S"
     },
     {
       "game": "FRO36916",
@@ -32,9 +32,14 @@
       "responsible": "Elia S"
     },
     {
+      "game": "SHE37718",
+      "time": "18:00",
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+    },
+    {
       "game": "APO37715",
       "time": "20:40",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+      "responsible": "Elia S"
     }
   ]
 }
