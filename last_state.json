@@ -1,69 +1,44 @@
 {
-  "date": "2025-08-01",
+  "date": "2025-08-02",
   "games": [
     {
-      "game": "APO37206",
-      "time": "11:20",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "BNK37769",
-      "time": "12:40",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "BNK37765",
+      "game": "SHE37630",
       "time": "14:00",
-      "responsible": "Elena W"
+      "responsible": "Elia S"
     },
     {
-      "game": "BNK37771",
+      "game": "BNK37752",
       "time": "15:20",
-      "responsible": "Elena W"
+      "responsible": "Elia S"
     },
     {
-      "game": "APO37766",
+      "game": "APO37764",
       "time": "15:20",
-      "responsible": "Elena W"
+      "responsible": "Elia S"
     },
     {
-      "game": "APO37677",
+      "game": "BNK37777",
       "time": "16:40",
       "responsible": "Elena W"
     },
     {
-      "game": "SHE37762",
+      "game": "APO37775",
       "time": "16:40",
       "responsible": "Elena W"
     },
     {
-      "game": "BNK37773",
-      "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
-    },
-    {
-      "game": "SHE37684",
+      "game": "BNK36944",
       "time": "18:00",
       "responsible": "Elena W"
     },
     {
-      "game": "APO37743",
+      "game": "APO37776",
       "time": "18:00",
       "responsible": "Elena W"
     },
     {
-      "game": "BNK37768",
-      "time": "18:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK37763",
-      "time": "20:40",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "APO37770",
-      "time": "20:40",
+      "game": "APO37774",
+      "time": "19:20",
       "responsible": "Elena W"
     }
   ]
