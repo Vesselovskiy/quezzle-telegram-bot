@@ -1,4 +1,10 @@
 {
-  "date": "2025-08-03",
-  "games": []
+  "date": "2025-08-04",
+  "games": [
+    {
+      "game": "BNK37799",
+      "time": "22:00",
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+    }
+  ]
 }
