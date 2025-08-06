@@ -27,6 +27,11 @@
       "responsible": "Elia S"
     },
     {
+      "game": "SHE37846",
+      "time": "15:20",
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+    },
+    {
       "game": "BNK37835",
       "time": "16:40",
       "responsible": "Elia S"
@@ -39,7 +44,7 @@
     {
       "game": "BNK37845",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+      "responsible": "Elia S"
     }
   ]
 }
