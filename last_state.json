@@ -19,7 +19,7 @@
     {
       "game": "APO37934",
       "time": "12:40",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+      "responsible": "Elia S"
     },
     {
       "game": "APO37808",
@@ -34,7 +34,7 @@
     {
       "game": "BNK37925",
       "time": "14:00",
-      "responsible": "Ludvig B"
+      "responsible": "Ilya M"
     },
     {
       "game": "APO37679",
@@ -44,7 +44,7 @@
     {
       "game": "SHE37875",
       "time": "15:20",
-      "responsible": "Ludvig B"
+      "responsible": "Ilya M"
     },
     {
       "game": "BNK37840",
@@ -74,7 +74,7 @@
     {
       "game": "BNK37860",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
       "game": "APO37859",
@@ -94,6 +94,11 @@
     {
       "game": "APO37933",
       "time": "20:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "APO37940",
+      "time": "22:00",
       "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
     }
   ]
