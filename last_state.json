@@ -1,35 +1,15 @@
 {
-  "date": "2025-08-13",
+  "date": "2025-08-14",
   "games": [
     {
-      "game": "FRO37950",
-      "time": "12:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "SHE37952",
-      "time": "16:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "SHE37851",
+      "game": "FRO37960",
       "time": "18:00",
-      "responsible": "Emilia L"
+      "responsible": "Natalya V"
     },
     {
-      "game": "BNK37850",
-      "time": "18:00",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "APO37849",
-      "time": "18:00",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "APO37977",
-      "time": "19:20",
-      "responsible": "Emilia L"
+      "game": "FRO37834",
+      "time": "20:40",
+      "responsible": "Natalya V"
     }
   ]
 }
