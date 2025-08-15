@@ -2,6 +2,11 @@
   "date": "2025-08-15",
   "games": [
     {
+      "game": "SHE38002",
+      "time": "12:40",
+      "responsible": "Elena W"
+    },
+    {
       "game": "FRO37997",
       "time": "12:40",
       "responsible": "Elena W"
