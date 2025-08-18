@@ -1,19 +1,19 @@
 {
-  "date": "2025-08-17",
+  "date": "2025-08-18",
   "games": [
     {
-      "game": "SHE38034",
-      "time": "15:20",
+      "game": "BNK38062",
+      "time": "11:20",
       "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
     },
     {
-      "game": "BNK38025",
-      "time": "15:20",
+      "game": "SHE37407",
+      "time": "18:00",
       "responsible": "Ludvig B"
     },
     {
-      "game": "BNK37999",
-      "time": "16:40",
+      "game": "BNK37122",
+      "time": "18:00",
       "responsible": "Ludvig B"
     }
   ]
