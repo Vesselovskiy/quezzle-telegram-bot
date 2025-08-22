@@ -1,10 +1,45 @@
 {
-  "date": "2025-08-21",
+  "date": "2025-08-22",
   "games": [
     {
-      "game": "SHE38136",
+      "game": "BNK38146",
+      "time": "12:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO38147",
+      "time": "14:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO38143",
+      "time": "15:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK38138",
+      "time": "16:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "APO38145",
       "time": "18:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO38060",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "SHE38059",
+      "time": "19:20",
       "responsible": "Natalya V"
+    },
+    {
+      "game": "BNK38024",
+      "time": "19:20",
+      "responsible": "Elena W"
     }
   ]
 }
