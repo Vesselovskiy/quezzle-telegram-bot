@@ -4,17 +4,17 @@
     {
       "game": "APO38412",
       "time": "14:00",
-      "responsible": "Ludvig B"
+      "responsible": "Emilia L"
     },
     {
       "game": "FRO38216",
       "time": "15:20",
-      "responsible": "Ludvig B"
+      "responsible": "Emilia L"
     },
     {
       "game": "APO38441",
       "time": "15:20",
-      "responsible": "Ludvig B"
+      "responsible": "Emilia L"
     },
     {
       "game": "BNK38437",
@@ -24,7 +24,7 @@
     {
       "game": "BNK38214",
       "time": "16:40",
-      "responsible": "Ludvig B"
+      "responsible": "Emilia L"
     },
     {
       "game": "FRO38415",
@@ -34,11 +34,6 @@
     {
       "game": "APO38434",
       "time": "18:00",
-      "responsible": "Ludvig B"
-    },
-    {
-      "game": "FRO38353",
-      "time": "19:20",
       "responsible": "Ludvig B"
     }
   ]
