@@ -1,15 +1,40 @@
 {
-  "date": "2025-09-08",
+  "date": "2025-09-09",
   "games": [
     {
-      "game": "SHE37983",
+      "game": "BNK38420",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO38374",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO38354",
+      "time": "16:40",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "FRO36122",
       "time": "18:00",
       "responsible": "Elia S"
     },
     {
-      "game": "BNK37982",
+      "game": "SHE36123",
       "time": "18:00",
       "responsible": "Elia S"
+    },
+    {
+      "game": "APO36124",
+      "time": "18:00",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "BNK36125",
+      "time": "18:00",
+      "responsible": "Kateryna S"
     }
   ]
 }
