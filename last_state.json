@@ -1,65 +1,55 @@
 {
-  "date": "2025-09-11",
+  "date": "2025-09-12",
   "games": [
     {
-      "game": "BNK38510",
-      "time": "15:20",
-      "responsible": "Natalya V"
+      "game": "FRO38504",
+      "time": "12:40",
+      "responsible": "Elena W"
     },
     {
-      "game": "SHE38511",
-      "time": "15:20",
-      "responsible": "Natalya V"
+      "game": "SHE37402",
+      "time": "16:40",
+      "responsible": "Elena W"
     },
     {
-      "game": "APO38489",
+      "game": "FRO37403",
+      "time": "16:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK38519",
       "time": "16:40",
       "responsible": "Natalya V"
     },
     {
-      "game": "FRO38488",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK38429",
-      "time": "16:40",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "APO38492",
+      "game": "BNK38534",
       "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
     },
     {
-      "game": "FRO38395",
+      "game": "FRO38526",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "BNK38185",
+      "game": "APO38433",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO38498",
+      "game": "BNK38533",
       "time": "19:20",
-      "responsible": "Elia S"
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
     },
     {
-      "game": "SHE38497",
+      "game": "FRO38003",
       "time": "19:20",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "BNK38495",
-      "time": "19:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO38496",
-      "time": "19:20",
-      "responsible": "Natalya V"
+      "game": "FRO38275",
+      "time": "20:40",
+      "responsible": "Elena W"
     }
   ]
 }
