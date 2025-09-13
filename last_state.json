@@ -104,7 +104,7 @@
     {
       "game": "SHE38560",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+      "responsible": "Natalya V"
     },
     {
       "game": "FRO38523",
@@ -122,6 +122,11 @@
       "responsible": "Elena W"
     },
     {
+      "game": "FRO38578",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+    },
+    {
       "game": "BNK38379",
       "time": "20:40",
       "responsible": "Elena W"
@@ -134,7 +139,7 @@
     {
       "game": "BNK38559",
       "time": "22:00",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+      "responsible": "Elena W"
     }
   ]
 }
