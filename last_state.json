@@ -109,7 +109,7 @@
     {
       "game": "SHE38903",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+      "responsible": "Kateryna S"
     },
     {
       "game": "BNK38883",
@@ -147,9 +147,14 @@
       "responsible": "Elena W"
     },
     {
-      "game": "BNK38901",
+      "game": "FRO38905",
       "time": "22:00",
       "responsible": "Ingen\nElena W\nElia S\nRegina S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S"
+    },
+    {
+      "game": "BNK38901",
+      "time": "22:00",
+      "responsible": "Elena W"
     }
   ]
 }
