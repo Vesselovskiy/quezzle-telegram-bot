@@ -1,4 +1,55 @@
 {
-  "date": "2025-09-29",
-  "games": []
+  "date": "2025-09-30",
+  "games": [
+    {
+      "game": "SHE38932",
+      "time": "11:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO38931",
+      "time": "11:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO38934",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK38917",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO38800",
+      "time": "18:00",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "SHE38801",
+      "time": "18:00",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "FRO38848",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE38895",
+      "time": "19:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO38894",
+      "time": "19:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO38937",
+      "time": "20:40",
+      "responsible": "Elia S"
+    }
+  ]
 }
