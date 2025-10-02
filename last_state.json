@@ -1,60 +1,30 @@
 {
-  "date": "2025-10-01",
+  "date": "2025-10-02",
   "games": [
     {
-      "game": "BNK38951",
-      "time": "10:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK38955",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE36853",
+      "game": "FRO38385",
       "time": "16:40",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "APO36852",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK36851",
+      "game": "SHE38384",
       "time": "16:40",
       "responsible": "Kateryna S"
     },
     {
-      "game": "FRO38746",
+      "game": "BNK38383",
       "time": "16:40",
-      "responsible": "Kateryna S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "FRO38749",
+      "game": "FRO38802",
       "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "APO38748",
+      "game": "SHE38803",
       "time": "18:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK38668",
-      "time": "18:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "SHE38667",
-      "time": "18:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "BNK38962",
-      "time": "20:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Natalya V"
     }
   ]
 }
