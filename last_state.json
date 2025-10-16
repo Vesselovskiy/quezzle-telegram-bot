@@ -1,55 +1,90 @@
 {
-  "date": "2025-10-15",
+  "date": "2025-10-16",
   "games": [
     {
-      "game": "FRO39227",
+      "game": "SHE39109",
+      "time": "14:00",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "BNK39108",
+      "time": "14:00",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "APO39107",
+      "time": "14:00",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "APO39166",
+      "time": "15:20",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "SHE38928",
+      "time": "15:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "FRO38927",
+      "time": "15:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "BNK38926",
+      "time": "15:20",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "BNK38806",
+      "time": "16:40",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "APO38809",
+      "time": "16:40",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "SHE38808",
       "time": "16:40",
       "responsible": "Kateryna S"
     },
     {
-      "game": "BNK38945",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO38948",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE38487",
+      "game": "FRO38807",
       "time": "16:40",
       "responsible": "Kateryna S"
     },
     {
-      "game": "BNK39240",
+      "game": "APO39144",
       "time": "18:00",
       "responsible": "Kateryna S"
     },
     {
-      "game": "FRO39231",
+      "game": "BNK38925",
       "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "APO38959",
+      "game": "SHE38924",
       "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "APO39202",
-      "time": "19:20",
+      "game": "FRO38923",
+      "time": "18:00",
       "responsible": "Kateryna S"
     },
     {
-      "game": "FRO39197",
+      "game": "FRO39114",
       "time": "19:20",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "SHE39126",
-      "time": "19:20",
-      "responsible": "Elia S"
+      "game": "BNK39250",
+      "time": "20:40",
+      "responsible": "Natalya V"
     }
   ]
 }
