@@ -1,74 +1,69 @@
 {
-  "date": "2025-10-21",
+  "date": "2025-10-22",
   "games": [
     {
-      "game": "BNK39287",
-      "time": "12:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO39022",
+      "game": "SHE38944",
       "time": "14:00",
       "responsible": "Elia S"
     },
     {
-      "game": "BNK39021",
+      "game": "BNK38943",
       "time": "14:00",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO39201",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO39199",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE39200",
-      "time": "15:20",
+      "game": "FRO38941",
+      "time": "14:00",
       "responsible": "Kateryna S"
     },
     {
-      "game": "BNK39198",
-      "time": "15:20",
+      "game": "APO38942",
+      "time": "14:00",
       "responsible": "Kateryna S"
     },
     {
-      "game": "APO39084",
-      "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "BNK38987",
+      "game": "APO38889",
       "time": "16:40",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO38985",
+      "game": "BNK38886",
       "time": "16:40",
       "responsible": "Elia S"
     },
     {
-      "game": "SHE38986",
+      "game": "FRO38887",
       "time": "16:40",
       "responsible": "Kateryna S"
     },
     {
-      "game": "APO39264",
+      "game": "SHE38888",
+      "time": "16:40",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "APO39568",
       "time": "18:00",
       "responsible": "Kateryna S"
     },
     {
-      "game": "FRO39263",
+      "game": "FRO39224",
       "time": "18:00",
       "responsible": "Elia S"
     },
     {
-      "game": "BNK38518",
+      "game": "SHE39223",
       "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK39222",
+      "time": "18:00",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "FRO39265",
+      "time": "20:40",
       "responsible": "Elia S"
     }
   ]
