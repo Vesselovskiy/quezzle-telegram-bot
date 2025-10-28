@@ -1,85 +1,65 @@
 {
-  "date": "2025-10-27",
+  "date": "2025-10-28",
   "games": [
     {
-      "game": "FRO39228",
+      "game": "SHE39686",
+      "time": "11:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO39601",
       "time": "12:40",
-      "responsible": "Natalya V"
+      "responsible": "Elia S"
     },
     {
-      "game": "BNK39582",
-      "time": "14:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "FRO39664",
+      "game": "APO39707",
       "time": "14:00",
       "responsible": "Kateryna S"
     },
     {
-      "game": "SHE39338",
+      "game": "BNK39704",
       "time": "14:00",
-      "responsible": "Natalya V"
+      "responsible": "Elia S"
     },
     {
-      "game": "APO39666",
+      "game": "FRO39672",
+      "time": "14:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO39715",
       "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK39656",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO39650",
-      "time": "15:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "BNK39698",
-      "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO39671",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO39061",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO39690",
-      "time": "18:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "BNK39667",
-      "time": "18:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE39587",
-      "time": "18:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO39700",
-      "time": "20:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK39663",
-      "time": "20:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO39712",
-      "time": "22:00",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "FRO39701",
+      "time": "15:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK39687",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE39642",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO39676",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK39088",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE39609",
+      "time": "19:20",
+      "responsible": "Elia S"
     }
   ]
 }
