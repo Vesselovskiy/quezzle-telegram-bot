@@ -2,6 +2,11 @@
   "date": "2025-11-02",
   "games": [
     {
+      "game": "SHE39864",
+      "time": "12:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S\nGrim O"
+    },
+    {
       "game": "FRO39848",
       "time": "12:40",
       "responsible": "Grim O"
@@ -39,7 +44,7 @@
     {
       "game": "APO39861",
       "time": "16:40",
-      "responsible": "Kateryna S"
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S\nGrim O"
     },
     {
       "game": "BNK39857",
