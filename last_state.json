@@ -1,75 +1,60 @@
 {
-  "date": "2025-11-02",
+  "date": "2025-11-03",
   "games": [
     {
-      "game": "SHE39864",
-      "time": "12:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO39848",
+      "game": "APO39872",
       "time": "12:40",
       "responsible": "Grim O"
     },
     {
-      "game": "BNK39832",
-      "time": "12:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "APO39829",
-      "time": "12:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "APO39814",
-      "time": "14:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO39703",
+      "game": "FRO38756",
       "time": "14:00",
       "responsible": "Grim O"
     },
     {
-      "game": "SHE39866",
-      "time": "15:20",
+      "game": "SHE38755",
+      "time": "14:00",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "BNK38754",
+      "time": "14:00",
       "responsible": "Kateryna S"
     },
     {
-      "game": "APO39865",
-      "time": "15:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "BNK39859",
+      "game": "BNK39777",
       "time": "15:20",
       "responsible": "Grim O"
     },
     {
-      "game": "FRO39644",
-      "time": "15:20",
+      "game": "FRO39842",
+      "time": "16:40",
       "responsible": "Grim O"
     },
     {
-      "game": "SHE39869",
+      "game": "BNK39841",
       "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Grim O"
     },
     {
-      "game": "APO39861",
+      "game": "SHE39840",
       "time": "16:40",
       "responsible": "Kateryna S"
     },
     {
-      "game": "BNK39857",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO39651",
+      "game": "SHE39855",
       "time": "18:00",
       "responsible": "Grim O"
+    },
+    {
+      "game": "FRO39695",
+      "time": "18:00",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "BNK39694",
+      "time": "18:00",
+      "responsible": "Kateryna S"
     }
   ]
 }
