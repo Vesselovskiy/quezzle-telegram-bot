@@ -1,99 +1,24 @@
 {
-  "date": "2025-11-09",
+  "date": "2025-11-10",
   "games": [
     {
-      "game": "SHE39976",
-      "time": "11:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO39893",
-      "time": "11:20",
+      "game": "FRO39966",
+      "time": "10:00",
       "responsible": "Grim O"
     },
     {
-      "game": "APO39978",
-      "time": "12:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK39960",
-      "time": "12:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO39956",
-      "time": "12:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "BNK39967",
+      "game": "FRO39951",
       "time": "14:00",
       "responsible": "Grim O"
     },
     {
-      "game": "FRO39677",
-      "time": "14:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "SHE39980",
-      "time": "15:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "APO39968",
-      "time": "15:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "BNK39957",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO39935",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "SHE39962",
-      "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO39965",
-      "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "BNK39941",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "APO39879",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "APO39971",
+      "game": "FRO39940",
       "time": "18:00",
       "responsible": "Grim O"
     },
     {
-      "game": "BNK39953",
+      "game": "SHE39189",
       "time": "18:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "SHE39889",
-      "time": "19:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO39984",
-      "time": "20:40",
       "responsible": "Grim O"
     }
   ]
