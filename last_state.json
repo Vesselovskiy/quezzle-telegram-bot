@@ -1,40 +1,80 @@
 {
-  "date": "2025-11-13",
+  "date": "2025-11-14",
   "games": [
     {
-      "game": "FRO38873",
+      "game": "BNK39570",
+      "time": "14:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK39598",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "BNK38872",
+      "game": "APO39596",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "SHE38874",
+      "game": "SHE39597",
       "time": "16:40",
-      "responsible": "Grim O"
+      "responsible": "Kateryna S"
     },
     {
-      "game": "SHE40042",
-      "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nLudvig B\nIlya M\nKateryna S\nGrim O"
+      "game": "FRO38790",
+      "time": "16:40",
+      "responsible": "Kateryna S"
     },
     {
-      "game": "APO39954",
+      "game": "BNK40040",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO39261",
+      "game": "APO40010",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Kateryna S"
     },
     {
-      "game": "BNK39260",
+      "game": "SHE39937",
       "time": "18:00",
-      "responsible": "Grim O"
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO38904",
+      "time": "18:00",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "BNK40045",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO40035",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "APO40050",
+      "time": "19:20",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "BNK40020",
+      "time": "20:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO39868",
+      "time": "20:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO40036",
+      "time": "22:00",
+      "responsible": "Elena W"
     }
   ]
 }
