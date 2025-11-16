@@ -2,6 +2,11 @@
   "date": "2025-11-16",
   "games": [
     {
+      "game": "SHE40077",
+      "time": "11:20",
+      "responsible": "Grim O"
+    },
+    {
       "game": "FRO40047",
       "time": "12:40",
       "responsible": "Grim O"
@@ -19,7 +24,7 @@
     {
       "game": "FRO40075",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Grim O"
     },
     {
       "game": "SHE39336",
