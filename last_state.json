@@ -1,15 +1,30 @@
 {
-  "date": "2025-11-17",
+  "date": "2025-11-18",
   "games": [
     {
-      "game": "FRO40073",
-      "time": "15:20",
-      "responsible": "Grim O"
+      "game": "FRO40018",
+      "time": "18:00",
+      "responsible": "Elia S"
     },
     {
-      "game": "FRO39979",
+      "game": "APO40017",
       "time": "18:00",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO40062",
+      "time": "19:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "SHE40061",
+      "time": "19:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO40060",
+      "time": "19:20",
+      "responsible": "Elia S"
     }
   ]
 }
