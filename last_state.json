@@ -1,35 +1,15 @@
 {
-  "date": "2025-11-19",
+  "date": "2025-11-20",
   "games": [
     {
-      "game": "APO40131",
-      "time": "12:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
-      "game": "FRO39778",
-      "time": "12:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO40115",
+      "game": "BNK39611",
       "time": "16:40",
-      "responsible": "Kateryna S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "APO40114",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK40015",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO39908",
+      "game": "BNK39513",
       "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     }
   ]
 }
