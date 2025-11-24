@@ -1,44 +1,34 @@
 {
-  "date": "2025-11-23",
+  "date": "2025-11-24",
   "games": [
     {
-      "game": "APO40173",
-      "time": "11:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40046",
-      "time": "11:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40138",
-      "time": "12:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40164",
+      "game": "BNK39235",
       "time": "14:00",
       "responsible": "Grim O"
     },
     {
-      "game": "BNK39915",
-      "time": "14:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK40029",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO39998",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40174",
+      "game": "SHE39242",
       "time": "16:40",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "BNK39241",
+      "time": "16:40",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "FRO39243",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE40121",
+      "time": "19:20",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "FRO40120",
+      "time": "19:20",
       "responsible": "Grim O"
     }
   ]
