@@ -2,6 +2,11 @@
   "date": "2025-12-01",
   "games": [
     {
+      "game": "APO40267",
+      "time": "14:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
       "game": "FRO40147",
       "time": "16:40",
       "responsible": "Elia S"
