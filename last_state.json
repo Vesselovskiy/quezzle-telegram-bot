@@ -1,44 +1,14 @@
 {
-  "date": "2025-11-30",
+  "date": "2025-12-01",
   "games": [
     {
-      "game": "BNK40215",
-      "time": "11:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO40248",
-      "time": "12:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO40107",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO40066",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK40227",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO40175",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO40159",
+      "game": "FRO40147",
       "time": "16:40",
       "responsible": "Elia S"
     },
     {
-      "game": "APO40158",
-      "time": "16:40",
+      "game": "FRO40104",
+      "time": "18:00",
       "responsible": "Elia S"
     }
   ]
