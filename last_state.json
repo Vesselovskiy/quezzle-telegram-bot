@@ -1,75 +1,50 @@
 {
-  "date": "2025-12-03",
+  "date": "2025-12-04",
   "games": [
     {
-      "game": "BNK39991",
+      "game": "BNK40032",
       "time": "14:00",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "FRO39912",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK39017",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO39016",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE39015",
-      "time": "15:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO39014",
-      "time": "15:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "APO39786",
+      "game": "APO40265",
       "time": "16:40",
-      "responsible": "Elia S"
+      "responsible": "Grim O"
     },
     {
-      "game": "BNK39787",
+      "game": "FRO40230",
       "time": "16:40",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "FRO39784",
+      "game": "BNK40219",
       "time": "16:40",
-      "responsible": "Kateryna S"
+      "responsible": "Grim O"
     },
     {
-      "game": "SHE39785",
-      "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "SHE40236",
+      "game": "BNK40157",
       "time": "18:00",
-      "responsible": "Kateryna S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "APO40235",
+      "game": "APO40082",
       "time": "18:00",
-      "responsible": "Kateryna S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "FRO40039",
+      "game": "SHE39793",
       "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Grim O"
     },
     {
-      "game": "BNK40038",
+      "game": "FRO39326",
       "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Grim O"
+    },
+    {
+      "game": "SHE40244",
+      "time": "19:20",
+      "responsible": "Natalya V"
     }
   ]
 }
