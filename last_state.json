@@ -102,14 +102,19 @@
       "responsible": "Elena W"
     },
     {
-      "game": "BNK40311",
+      "game": "SHE40313",
       "time": "20:40",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     },
     {
+      "game": "BNK40311",
+      "time": "20:40",
+      "responsible": "Elena W"
+    },
+    {
       "game": "FRO40312",
       "time": "22:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elena W"
     }
   ]
 }
