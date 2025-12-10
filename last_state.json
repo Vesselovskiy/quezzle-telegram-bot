@@ -1,35 +1,85 @@
 {
-  "date": "2025-12-09",
+  "date": "2025-12-10",
   "games": [
     {
-      "game": "FRO40332",
+      "game": "APO40331",
+      "time": "15:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "SHE40330",
+      "time": "15:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "FRO40023",
+      "time": "15:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK40022",
+      "time": "15:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO40056",
       "time": "16:40",
       "responsible": "Elia S"
     },
     {
-      "game": "APO40282",
+      "game": "FRO40055",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE39876",
+      "time": "16:40",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "BNK39877",
+      "time": "16:40",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "APO40338",
+      "time": "18:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "SHE40229",
       "time": "18:00",
       "responsible": "Elia S"
     },
     {
-      "game": "SHE40281",
+      "game": "BNK40228",
       "time": "18:00",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO40280",
+      "game": "FRO40189",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Kateryna S"
     },
     {
-      "game": "BNK40277",
-      "time": "18:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK40326",
+      "game": "FRO40335",
       "time": "19:20",
       "responsible": "Elia S"
+    },
+    {
+      "game": "APO40296",
+      "time": "19:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK40295",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "SHE40291",
+      "time": "19:20",
+      "responsible": "Kateryna S"
     }
   ]
 }
