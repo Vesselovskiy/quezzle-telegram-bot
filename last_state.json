@@ -1,40 +1,85 @@
 {
-  "date": "2025-12-11",
+  "date": "2025-12-12",
   "games": [
     {
-      "game": "BNK40337",
+      "game": "SHE39524",
+      "time": "14:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO39525",
+      "time": "14:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK39523",
+      "time": "14:00",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "FRO40200",
       "time": "15:20",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "SHE40151",
+      "game": "APO40198",
+      "time": "15:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK40148",
+      "time": "15:20",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "APO40329",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "APO40150",
+      "game": "SHE40322",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "BNK39875",
+      "game": "BNK40264",
       "time": "16:40",
-      "responsible": "Grim O"
+      "responsible": "Kateryna S"
     },
     {
-      "game": "FRO39874",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40343",
+      "game": "SHE40334",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "BNK40266",
+      "game": "FRO40234",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
+    },
+    {
+      "game": "APO40021",
+      "time": "18:00",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "BNK39140",
+      "time": "18:00",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "FRO40344",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "APO40273",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK40328",
+      "time": "20:40",
+      "responsible": "Elena W"
     }
   ]
 }
