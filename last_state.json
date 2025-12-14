@@ -1,100 +1,10 @@
 {
-  "date": "2025-12-13",
+  "date": "2025-12-14",
   "games": [
     {
-      "game": "FRO40339",
-      "time": "11:20",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "SHE39319",
-      "time": "11:20",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "BNK40361",
-      "time": "12:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "APO40360",
-      "time": "12:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "FRO40016",
-      "time": "12:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "BNK40233",
-      "time": "14:00",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "FRO40191",
-      "time": "14:00",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "APO40135",
-      "time": "15:20",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "BNK38759",
-      "time": "15:20",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "FRO40366",
+      "game": "APO40323",
       "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
-      "game": "APO40206",
-      "time": "16:40",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK39746",
-      "time": "16:40",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "SHE39745",
-      "time": "16:40",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "BNK40354",
-      "time": "18:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "FRO40308",
-      "time": "18:00",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "APO40341",
-      "time": "18:00",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "FRO40350",
-      "time": "19:20",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "APO40133",
-      "time": "19:20",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "BNK40357",
-      "time": "22:00",
-      "responsible": "Elena W"
+      "responsible": "Grim O"
     }
   ]
 }
