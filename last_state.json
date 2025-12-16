@@ -1,30 +1,40 @@
 {
-  "date": "2025-12-15",
+  "date": "2025-12-16",
   "games": [
     {
-      "game": "FRO40194",
-      "time": "16:40",
-      "responsible": "Grim O"
+      "game": "SHE40196",
+      "time": "14:00",
+      "responsible": "Elia S"
     },
     {
-      "game": "BNK40193",
-      "time": "16:40",
-      "responsible": "Grim O"
+      "game": "FRO40195",
+      "time": "14:00",
+      "responsible": "Elia S"
     },
     {
-      "game": "SHE40192",
-      "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO40279",
+      "game": "FRO40299",
       "time": "18:00",
-      "responsible": "Grim O"
+      "responsible": "Natalya V"
     },
     {
-      "game": "APO40378",
+      "game": "SHE40298",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK40297",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK40347",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE40284",
+      "time": "19:20",
+      "responsible": "Elia S"
     }
   ]
 }
