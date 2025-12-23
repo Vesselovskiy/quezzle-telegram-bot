@@ -14,12 +14,17 @@
     {
       "game": "BNK40458",
       "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elia S"
     },
     {
       "game": "BNK40351",
       "time": "15:20",
       "responsible": "Elia S"
+    },
+    {
+      "game": "APO40467",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
