@@ -79,7 +79,7 @@
     {
       "game": "FRO40553",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Kateryna S"
     },
     {
       "game": "APO40502",
@@ -88,6 +88,11 @@
     },
     {
       "game": "SHE40552",
+      "time": "19:20",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "FRO40555",
       "time": "19:20",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     },
