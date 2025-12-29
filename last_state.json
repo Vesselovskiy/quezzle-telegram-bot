@@ -1,110 +1,45 @@
 {
-  "date": "2025-12-28",
+  "date": "2025-12-29",
   "games": [
     {
-      "game": "FRO40523",
-      "time": "10:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40535",
-      "time": "11:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "SHE40537",
-      "time": "11:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40521",
-      "time": "12:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK40530",
-      "time": "14:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "APO40531",
+      "game": "FRO40540",
       "time": "14:00",
       "responsible": "Grim O"
     },
     {
-      "game": "SHE40547",
-      "time": "14:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO40080",
+      "game": "BNK40556",
       "time": "14:00",
       "responsible": "Grim O"
     },
     {
-      "game": "SHE40522",
+      "game": "FRO40538",
       "time": "15:20",
       "responsible": "Grim O"
     },
     {
-      "game": "BNK40536",
+      "game": "SHE40564",
       "time": "15:20",
       "responsible": "Grim O"
     },
     {
-      "game": "FRO40532",
-      "time": "15:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO40541",
+      "game": "SHE40539",
       "time": "16:40",
       "responsible": "Grim O"
     },
     {
-      "game": "BNK40549",
-      "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "APO40497",
+      "game": "BNK40422",
       "time": "16:40",
       "responsible": "Grim O"
     },
     {
-      "game": "BNK40546",
+      "game": "BNK40481",
       "time": "18:00",
       "responsible": "Grim O"
     },
     {
-      "game": "FRO40553",
-      "time": "18:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "APO40502",
-      "time": "18:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "SHE40552",
+      "game": "FRO40561",
       "time": "19:20",
       "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40555",
-      "time": "19:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "APO40534",
-      "time": "19:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40559",
-      "time": "20:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
