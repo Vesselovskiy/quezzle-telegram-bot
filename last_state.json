@@ -1,60 +1,65 @@
 {
-  "date": "2025-12-29",
+  "date": "2025-12-30",
   "games": [
     {
-      "game": "FRO40540",
+      "game": "SHE40576",
+      "time": "11:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK40582",
       "time": "14:00",
-      "responsible": "Grim O"
+      "responsible": "Natalya V"
     },
     {
-      "game": "BNK40556",
+      "game": "APO40548",
       "time": "14:00",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
     },
     {
-      "game": "FRO40538",
+      "game": "FRO40558",
+      "time": "14:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO40550",
       "time": "15:20",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
     },
     {
-      "game": "SHE40564",
+      "game": "APO40581",
       "time": "15:20",
-      "responsible": "Grim O"
+      "responsible": "Natalya V"
     },
     {
-      "game": "SHE40539",
+      "game": "BNK40569",
+      "time": "15:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO40551",
       "time": "16:40",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
     },
     {
-      "game": "BNK40422",
+      "game": "BNK40570",
       "time": "16:40",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
     },
     {
-      "game": "BNK40481",
+      "game": "BNK40587",
       "time": "18:00",
-      "responsible": "Grim O"
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     },
     {
-      "game": "FRO40574",
+      "game": "APO40375",
       "time": "18:00",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
     },
     {
-      "game": "FRO40561",
+      "game": "BNK40435",
       "time": "19:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK40577",
-      "time": "20:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "APO40579",
-      "time": "22:00",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
     }
   ]
 }
