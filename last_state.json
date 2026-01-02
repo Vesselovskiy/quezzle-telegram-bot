@@ -19,12 +19,12 @@
     {
       "game": "APO40641",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Grim O"
     },
     {
       "game": "SHE40640",
       "time": "15:20",
-      "responsible": "Grim O"
+      "responsible": "Kateryna S"
     },
     {
       "game": "FRO40563",
@@ -50,6 +50,11 @@
       "game": "BNK40633",
       "time": "19:20",
       "responsible": "Grim O"
+    },
+    {
+      "game": "BNK40642",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     },
     {
       "game": "BNK40588",
