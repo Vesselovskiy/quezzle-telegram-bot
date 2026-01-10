@@ -1,39 +1,84 @@
 {
-  "date": "2026-01-09",
+  "date": "2026-01-10",
   "games": [
     {
-      "game": "APO40736",
-      "time": "14:00",
-      "responsible": "Elena W"
+      "game": "APO40747",
+      "time": "11:20",
+      "responsible": "Elia S"
     },
     {
-      "game": "FRO40465",
-      "time": "14:00",
-      "responsible": "Elena W"
+      "game": "FRO40692",
+      "time": "12:40",
+      "responsible": "Elia S"
     },
     {
-      "game": "FRO40738",
+      "game": "SHE40693",
+      "time": "12:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK40746",
+      "time": "14:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO40571",
+      "time": "14:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK40710",
       "time": "15:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO40713",
+      "time": "15:20",
+      "responsible": "Emilia L"
+    },
+    {
+      "game": "SHE40737",
+      "time": "15:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE40744",
+      "time": "16:40",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "BNK40695",
+      "time": "16:40",
       "responsible": "Elena W"
     },
     {
-      "game": "APO40604",
+      "game": "FRO40656",
+      "time": "16:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK40748",
+      "time": "18:00",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "FRO40696",
       "time": "18:00",
       "responsible": "Elena W"
     },
     {
-      "game": "BNK40664",
-      "time": "19:20",
+      "game": "APO40359",
+      "time": "18:00",
       "responsible": "Elena W"
     },
     {
-      "game": "FRO40740",
-      "time": "19:20",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "BNK40741",
+      "game": "APO40731",
       "time": "20:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK40665",
+      "time": "22:00",
       "responsible": "Elena W"
     }
   ]
