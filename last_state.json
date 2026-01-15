@@ -1,25 +1,10 @@
 {
-  "date": "2026-01-14",
+  "date": "2026-01-15",
   "games": [
     {
-      "game": "SHE40503",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE40761",
+      "game": "FRO40720",
       "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "BNK40449",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO40450",
-      "time": "16:40",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     }
   ]
 }
