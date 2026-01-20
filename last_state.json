@@ -1,40 +1,10 @@
 {
-  "date": "2026-01-19",
+  "date": "2026-01-20",
   "games": [
     {
-      "game": "BNK40860",
-      "time": "12:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK40461",
+      "game": "FRO40778",
       "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40460",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40771",
-      "time": "18:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "APO40403",
-      "time": "18:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK40402",
-      "time": "18:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "SHE40401",
-      "time": "18:00",
-      "responsible": "Kateryna S"
+      "responsible": "Elia S"
     }
   ]
 }
