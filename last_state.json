@@ -27,6 +27,11 @@
       "responsible": "Grim O"
     },
     {
+      "game": "GRA40973",
+      "time": "14:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
       "game": "APO40933",
       "time": "14:00",
       "responsible": "Grim O"
@@ -49,12 +54,12 @@
     {
       "game": "APO40963",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Grim O"
     },
     {
       "game": "BNK40972",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Grim O"
     }
   ]
 }
