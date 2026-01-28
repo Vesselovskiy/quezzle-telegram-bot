@@ -1,48 +1,33 @@
 {
-  "date": "2026-01-27",
+  "date": "2026-01-28",
   "games": [
     {
-      "game": "SHE41002",
-      "time": "11:20",
+      "game": "BNK41000",
+      "time": "15:20",
       "responsible": "Elia S"
     },
     {
-      "game": "GRA41007",
-      "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
-      "game": "BNK40987",
+      "game": "BNK41006",
       "time": "16:40",
       "responsible": "Elia S"
     },
     {
-      "game": "BNK40863",
-      "time": "18:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "SHE40864",
-      "time": "18:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "APO40865",
+      "game": "BNK40888",
       "time": "18:00",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO40415",
-      "time": "18:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO40949",
+      "game": "BNK41017",
       "time": "19:20",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO40970",
+      "game": "BNK40892",
+      "time": "20:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO40891",
       "time": "20:40",
       "responsible": "Elia S"
     }
