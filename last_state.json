@@ -79,7 +79,7 @@
     {
       "game": "SHE40872",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Emilia L"
     },
     {
       "game": "GRA41013",
@@ -107,6 +107,11 @@
       "responsible": "Natalya V"
     },
     {
+      "game": "SHE41078",
+      "time": "18:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
       "game": "APO40846",
       "time": "18:00",
       "responsible": "Elena W"
@@ -114,7 +119,7 @@
     {
       "game": "GRA41073",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Natalya V"
     },
     {
       "game": "FRO41020",
