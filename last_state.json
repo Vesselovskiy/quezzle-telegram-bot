@@ -49,7 +49,7 @@
     {
       "game": "FRO41091",
       "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Kateryna S"
     },
     {
       "game": "BNK40875",
@@ -59,6 +59,11 @@
     {
       "game": "BNK41090",
       "time": "18:00",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "FRO41096",
+      "time": "20:40",
       "responsible": "Grim O"
     }
   ]
