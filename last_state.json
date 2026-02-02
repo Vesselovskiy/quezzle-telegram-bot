@@ -2,9 +2,14 @@
   "date": "2026-02-02",
   "games": [
     {
+      "game": "FRO41109",
+      "time": "14:10",
+      "responsible": "Grim O"
+    },
+    {
       "game": "BNK41108",
       "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Kateryna S"
     },
     {
       "game": "APO40907",
