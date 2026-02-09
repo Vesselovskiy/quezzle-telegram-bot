@@ -1,75 +1,40 @@
 {
-  "date": "2026-02-08",
+  "date": "2026-02-09",
   "games": [
     {
-      "game": "GRA41169",
-      "time": "11:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO40984",
-      "time": "11:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "APO41179",
-      "time": "14:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "SHE41081",
+      "game": "APO41185",
       "time": "14:00",
       "responsible": "Grim O"
     },
     {
-      "game": "FRO40989",
-      "time": "14:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK41180",
-      "time": "15:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "APO41167",
-      "time": "15:20",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "GRA41164",
+      "game": "FRO41184",
       "time": "15:20",
       "responsible": "Grim O"
     },
     {
-      "game": "FRO40858",
+      "game": "APO40976",
       "time": "15:20",
       "responsible": "Grim O"
     },
     {
-      "game": "BNK41149",
-      "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO41107",
+      "game": "BNK41189",
       "time": "16:40",
       "responsible": "Grim O"
     },
     {
-      "game": "SHE40965",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "APO41175",
+      "game": "APO41113",
       "time": "18:00",
       "responsible": "Grim O"
     },
     {
-      "game": "FRO41172",
+      "game": "GRA41112",
       "time": "18:00",
       "responsible": "Grim O"
+    },
+    {
+      "game": "SHE41065",
+      "time": "18:00",
+      "responsible": "Kateryna S"
     }
   ]
 }
