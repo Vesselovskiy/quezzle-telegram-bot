@@ -1,25 +1,60 @@
 {
-  "date": "2026-02-12",
+  "date": "2026-02-13",
   "games": [
     {
-      "game": "SHE41190",
+      "game": "GRA40950",
+      "time": "12:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK41158",
       "time": "15:20",
-      "responsible": "Grim O"
+      "responsible": "Elena W"
     },
     {
-      "game": "GRA41237",
-      "time": "18:00",
-      "responsible": "Grim O"
+      "game": "APO41232",
+      "time": "15:20",
+      "responsible": "Elena W"
     },
     {
-      "game": "SHE41228",
-      "time": "18:00",
-      "responsible": "Grim O"
+      "game": "FRO41249",
+      "time": "16:40",
+      "responsible": "Kateryna S"
     },
     {
-      "game": "BNK41211",
+      "game": "APO41216",
+      "time": "16:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "SHE41210",
+      "time": "16:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK41243",
       "time": "18:00",
-      "responsible": "Grim O"
+      "responsible": "Elena W"
+    },
+    {
+      "game": "APO41217",
+      "time": "18:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "GRA41133",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK41132",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "GRA41213",
+      "time": "20:40",
+      "responsible": "Elena W"
     }
   ]
 }
