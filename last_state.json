@@ -1,44 +1,34 @@
 {
-  "date": "2026-02-22",
+  "date": "2026-02-23",
   "games": [
     {
-      "game": "SHE41326",
-      "time": "11:20",
+      "game": "SHE41438",
+      "time": "10:00",
       "responsible": "Grim O"
     },
     {
-      "game": "GRA41318",
+      "game": "BNK41445",
+      "time": "12:40",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "FRO41433",
       "time": "14:00",
       "responsible": "Grim O"
     },
     {
-      "game": "FRO41316",
-      "time": "15:20",
+      "game": "BNK41450",
+      "time": "14:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "APO41338",
+      "time": "20:40",
       "responsible": "Grim O"
     },
     {
-      "game": "GRA41334",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "SHE41335",
-      "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
-      "game": "APO41336",
-      "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
-      "game": "FRO41441",
-      "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
-      "game": "FRO41440",
-      "time": "19:20",
+      "game": "GRA41337",
+      "time": "20:40",
       "responsible": "Grim O"
     }
   ]
