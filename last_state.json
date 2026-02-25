@@ -34,7 +34,7 @@
     {
       "game": "SHE41533",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elia S"
     },
     {
       "game": "FRO41466",
@@ -55,6 +55,11 @@
       "game": "GRA41501",
       "time": "18:00",
       "responsible": "Elia S"
+    },
+    {
+      "game": "FRO41535",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
