@@ -2,6 +2,11 @@
   "date": "2026-02-25",
   "games": [
     {
+      "game": "GRA41506",
+      "time": "11:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
       "game": "BNK41464",
       "time": "12:40",
       "responsible": "Elia S"
@@ -19,7 +24,7 @@
     {
       "game": "FRO41498",
       "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elia S"
     },
     {
       "game": "FRO41466",
@@ -34,7 +39,7 @@
     {
       "game": "GRA41501",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elia S"
     }
   ]
 }
