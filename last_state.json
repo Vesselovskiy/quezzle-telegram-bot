@@ -144,10 +144,15 @@
     {
       "game": "FRO41574",
       "time": "20:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elena W"
     },
     {
       "game": "APO41589",
+      "time": "22:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO41594",
       "time": "22:00",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
