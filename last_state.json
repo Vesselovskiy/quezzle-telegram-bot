@@ -1,120 +1,140 @@
 {
-  "date": "2026-02-26",
+  "date": "2026-02-27",
   "games": [
     {
-      "game": "SHE41544",
-      "time": "10:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "GRA41505",
+      "game": "FRO41573",
       "time": "11:20",
-      "responsible": "Natalya V"
+      "responsible": "Elia S"
     },
     {
-      "game": "FRO41439",
-      "time": "11:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "FRO41536",
+      "game": "SHE41534",
       "time": "12:40",
-      "responsible": "Natalya V"
+      "responsible": "Elia S"
     },
     {
-      "game": "FRO41559",
+      "game": "BNK41565",
+      "time": "12:40",
+      "responsible": "Emilia L"
+    },
+    {
+      "game": "FRO41471",
+      "time": "12:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "GRA41568",
       "time": "14:00",
-      "responsible": "Grim O"
+      "responsible": "Emilia L"
     },
     {
-      "game": "GRA41486",
+      "game": "BNK41571",
       "time": "14:00",
-      "responsible": "Grim O"
+      "responsible": "Emilia L"
     },
     {
-      "game": "APO41488",
+      "game": "FRO41093",
       "time": "14:00",
-      "responsible": "Natalya V"
+      "responsible": "Elia S"
     },
     {
-      "game": "SHE41489",
+      "game": "APO41321",
       "time": "14:00",
-      "responsible": "Natalya V"
+      "responsible": "Elia S"
     },
     {
-      "game": "BNK41451",
-      "time": "14:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK41526",
+      "game": "GRA41497",
       "time": "15:20",
-      "responsible": "Natalya V"
+      "responsible": "Emilia L"
     },
     {
-      "game": "SHE41541",
+      "game": "FRO41470",
       "time": "15:20",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
     },
     {
-      "game": "GRA41554",
+      "game": "SHE41322",
       "time": "15:20",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
     },
     {
-      "game": "APO41560",
-      "time": "15:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "FRO41424",
-      "time": "15:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK41540",
+      "game": "SHE41539",
       "time": "16:40",
-      "responsible": "Grim O"
+      "responsible": "Emilia L"
     },
     {
-      "game": "FRO41473",
+      "game": "BNK41548",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Emilia L"
     },
     {
-      "game": "GRA41459",
+      "game": "GRA41484",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Elia S"
     },
     {
-      "game": "GRA41363",
+      "game": "FRO41342",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO41537",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "SHE41366",
+      "game": "BNK41538",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elia S"
     },
     {
-      "game": "APO41367",
+      "game": "GRA41477",
       "time": "18:00",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
     },
     {
-      "game": "FRO41365",
+      "game": "SHE41478",
       "time": "18:00",
-      "responsible": "Grim O"
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO41547",
+      "game": "FRO41292",
+      "time": "18:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK41545",
       "time": "19:20",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "SHE41435",
+      "game": "GRA41499",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "APO41491",
+      "time": "19:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO41417",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "SHE41231",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "BNK41570",
       "time": "20:40",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO41574",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
