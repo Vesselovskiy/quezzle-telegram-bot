@@ -14,7 +14,7 @@
     {
       "game": "SHE41605",
       "time": "11:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Emilia L"
     },
     {
       "game": "GRA41500",
@@ -29,7 +29,7 @@
     {
       "game": "GRA41604",
       "time": "12:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Emilia L"
     },
     {
       "game": "SHE41475",
@@ -44,7 +44,7 @@
     {
       "game": "GRA41606",
       "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Emilia L"
     },
     {
       "game": "SHE41493",
@@ -145,6 +145,11 @@
       "game": "BNK41434",
       "time": "19:20",
       "responsible": "Elena W"
+    },
+    {
+      "game": "FRO41607",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     },
     {
       "game": "GRA41214",
