@@ -149,7 +149,7 @@
     {
       "game": "FRO41607",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Natalya V"
     },
     {
       "game": "GRA41214",
@@ -165,6 +165,11 @@
       "game": "GRA41591",
       "time": "22:00",
       "responsible": "Elena W"
+    },
+    {
+      "game": "APO41608",
+      "time": "22:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
