@@ -1,79 +1,19 @@
 {
-  "date": "2026-03-01",
+  "date": "2026-03-02",
   "games": [
     {
-      "game": "FRO41621",
-      "time": "11:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "GRA41413",
-      "time": "11:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "GRA41615",
+      "game": "GRA41658",
       "time": "12:40",
       "responsible": "Grim O"
     },
     {
-      "game": "SHE41622",
-      "time": "12:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
-      "game": "FRO41369",
+      "game": "FRO41463",
       "time": "12:40",
       "responsible": "Grim O"
     },
     {
-      "game": "SHE41588",
-      "time": "14:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "GRA41614",
-      "time": "14:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK41623",
-      "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
-      "game": "FRO41611",
-      "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
-      "game": "GRA41193",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO41284",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "GRA41619",
+      "game": "FRO41657",
       "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO41609",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK41289",
-      "time": "19:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "SHE41599",
-      "time": "20:40",
       "responsible": "Grim O"
     }
   ]
