@@ -1,20 +1,45 @@
 {
-  "date": "2026-03-04",
+  "date": "2026-03-05",
   "games": [
     {
-      "game": "FRO41447",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO41617",
+      "game": "GRA41675",
       "time": "18:00",
       "responsible": "Elia S"
     },
     {
-      "game": "FRO41610",
+      "game": "APO41670",
       "time": "18:00",
       "responsible": "Elia S"
+    },
+    {
+      "game": "FRO41331",
+      "time": "18:00",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "BNK41333",
+      "time": "18:00",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "FRO41352",
+      "time": "19:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "APO41353",
+      "time": "19:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE41354",
+      "time": "19:20",
+      "responsible": "Grim O"
+    },
+    {
+      "game": "BNK41355",
+      "time": "19:20",
+      "responsible": "Grim O"
     }
   ]
 }
