@@ -24,12 +24,12 @@
     {
       "game": "APO42453",
       "time": "11:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elia S"
     },
     {
       "game": "FRO42358",
       "time": "12:40",
-      "responsible": "Elia S"
+      "responsible": "Emilia L"
     },
     {
       "game": "SHE42422",
@@ -54,12 +54,12 @@
     {
       "game": "SHE42225",
       "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Emilia L"
     },
     {
       "game": "GRA42442",
       "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Emilia L"
     },
     {
       "game": "FRO41951",
@@ -74,12 +74,12 @@
     {
       "game": "SHE41802",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Emilia L"
     },
     {
       "game": "APO41668",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Emilia L"
     },
     {
       "game": "GRA42441",
@@ -155,6 +155,11 @@
       "game": "BNK42432",
       "time": "20:40",
       "responsible": "Grim O"
+    },
+    {
+      "game": "APO42456",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
