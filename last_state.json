@@ -1,35 +1,10 @@
 {
-  "date": "2026-04-29",
+  "date": "2026-04-30",
   "games": [
     {
-      "game": "BNK42049",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE42048",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO42509",
-      "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO42478",
-      "time": "19:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "GRA42479",
-      "time": "19:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK42504",
-      "time": "19:20",
-      "responsible": "Kateryna S"
+      "game": "GRA42607",
+      "time": "20:40",
+      "responsible": "Natalya V"
     }
   ]
 }
