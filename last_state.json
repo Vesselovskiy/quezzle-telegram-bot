@@ -54,12 +54,17 @@
     {
       "game": "BNK42606",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elena W"
     },
     {
       "game": "BNK42574",
       "time": "19:20",
       "responsible": "Elena W"
+    },
+    {
+      "game": "BNK42641",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     },
     {
       "game": "BNK42599",
@@ -69,7 +74,7 @@
     {
       "game": "GRA42634",
       "time": "22:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elena W"
     }
   ]
 }
