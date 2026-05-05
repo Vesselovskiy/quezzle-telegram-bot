@@ -1,10 +1,30 @@
 {
-  "date": "2026-05-04",
+  "date": "2026-05-05",
   "games": [
     {
-      "game": "FRO42646",
-      "time": "10:00",
-      "responsible": "Grim O"
+      "game": "FRO42513",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE42568",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO42429",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE42430",
+      "time": "18:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "BNK42625",
+      "time": "18:00",
+      "responsible": "Natalya V"
     }
   ]
 }
