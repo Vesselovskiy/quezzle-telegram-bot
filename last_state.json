@@ -1,60 +1,55 @@
 {
-  "date": "2026-05-07",
+  "date": "2026-05-08",
   "games": [
     {
-      "game": "SHE41916",
+      "game": "FRO42697",
+      "time": "11:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "GRA42172",
+      "time": "14:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "APO42370",
+      "time": "15:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "GRA42694",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO41915",
-      "time": "16:40",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK41914",
-      "time": "16:40",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "APO42666",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "GRA42667",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "SHE42303",
+      "game": "APO42714",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "APO42575",
+      "game": "FRO42715",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO42609",
-      "time": "18:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "GRA42610",
-      "time": "18:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK42614",
-      "time": "18:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK42725",
+      "game": "FRO42702",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK42643",
+      "time": "20:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "SHE42711",
+      "time": "20:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK42599",
+      "time": "22:00",
+      "responsible": "Elena W"
     }
   ]
 }
