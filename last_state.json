@@ -54,7 +54,7 @@
     {
       "game": "FRO42992",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elia S"
     },
     {
       "game": "FRO42799",
@@ -69,12 +69,17 @@
     {
       "game": "BNK42991",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elia S"
     },
     {
       "game": "FRO42879",
       "time": "20:40",
       "responsible": "Elia S"
+    },
+    {
+      "game": "BNK42995",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
