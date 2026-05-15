@@ -1,85 +1,75 @@
 {
-  "date": "2026-05-14",
+  "date": "2026-05-15",
   "games": [
     {
-      "game": "FRO42964",
-      "time": "11:20",
-      "responsible": "Elia S"
+      "game": "GRA42814",
+      "time": "10:00",
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO42534",
+      "game": "APO42914",
+      "time": "10:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK42993",
+      "time": "10:00",
+      "responsible": "Kateryna S"
+    },
+    {
+      "game": "GRA42812",
       "time": "12:40",
-      "responsible": "Elia S"
+      "responsible": "Elena W"
     },
     {
-      "game": "APO42742",
-      "time": "14:00",
-      "responsible": "Elia S"
+      "game": "FRO42915",
+      "time": "12:40",
+      "responsible": "Elena W"
     },
     {
-      "game": "SHE42743",
-      "time": "14:00",
-      "responsible": "Elia S"
+      "game": "APO42997",
+      "time": "12:40",
+      "responsible": "Kateryna S"
     },
     {
-      "game": "FRO42870",
-      "time": "14:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "SHE42683",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "APO42987",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "GRA42703",
+      "game": "GRA42731",
       "time": "16:40",
-      "responsible": "Elia S"
+      "responsible": "Elena W"
     },
     {
-      "game": "BNK42704",
+      "game": "BNK42983",
       "time": "16:40",
-      "responsible": "Elia S"
+      "responsible": "Elena W"
     },
     {
-      "game": "APO42868",
+      "game": "FRO42996",
       "time": "16:40",
-      "responsible": "Grim O"
+      "responsible": "Kateryna S"
     },
     {
-      "game": "FRO42992",
+      "game": "FRO42539",
       "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO42799",
+      "game": "APO42963",
+      "time": "18:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "APO42989",
       "time": "19:20",
-      "responsible": "Elia S"
+      "responsible": "Elena W"
     },
     {
-      "game": "GRA42986",
+      "game": "FRO42994",
       "time": "19:20",
-      "responsible": "Elia S"
+      "responsible": "Elena W"
     },
     {
-      "game": "BNK42991",
-      "time": "19:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO42879",
+      "game": "GRA42920",
       "time": "20:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK42995",
-      "time": "20:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elena W"
     }
   ]
 }
