@@ -2,6 +2,11 @@
   "date": "2026-05-28",
   "games": [
     {
+      "game": "GRA43185",
+      "time": "12:40",
+      "responsible": "Natalya V"
+    },
+    {
       "game": "APO42873",
       "time": "16:40",
       "responsible": "Natalya V"
