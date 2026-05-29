@@ -1,55 +1,65 @@
 {
-  "date": "2026-05-28",
+  "date": "2026-05-29",
   "games": [
     {
-      "game": "GRA43185",
-      "time": "12:40",
-      "responsible": "Natalya V"
+      "game": "BNK43196",
+      "time": "14:00",
+      "responsible": "Elena W"
     },
     {
-      "game": "APO42873",
+      "game": "BNK43193",
+      "time": "15:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO43195",
+      "time": "15:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "FRO42415",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "BNK42874",
+      "game": "APO43086",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO42888",
-      "time": "16:40",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "SHE42889",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "GRA43112",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK42878",
+      "game": "BNK41975",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO42892",
+      "game": "FRO42657",
       "time": "18:00",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "GRA42893",
+      "game": "SHE43046",
       "time": "18:00",
-      "responsible": "Grim O"
+      "responsible": "Elia S"
     },
     {
-      "game": "BNK43055",
+      "game": "APO43121",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "GRA43122",
+      "time": "18:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "FRO43139",
       "time": "19:20",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO43172",
+      "time": "20:40",
+      "responsible": "Elena W"
     }
   ]
 }
