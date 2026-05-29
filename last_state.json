@@ -69,12 +69,17 @@
     {
       "game": "APO43216",
       "time": "20:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elena W"
     },
     {
       "game": "BNK43215",
       "time": "22:00",
       "responsible": "Elena W"
+    },
+    {
+      "game": "GRA43217",
+      "time": "22:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
