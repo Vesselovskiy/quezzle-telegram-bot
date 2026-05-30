@@ -32,11 +32,6 @@
       "responsible": "Emilia L"
     },
     {
-      "game": "BNK43207",
-      "time": "12:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
       "game": "GRA42741",
       "time": "14:00",
       "responsible": "Emilia L"
@@ -65,6 +60,11 @@
       "game": "SHE43197",
       "time": "15:20",
       "responsible": "Ilya M"
+    },
+    {
+      "game": "BNK43207",
+      "time": "15:20",
+      "responsible": "Emilia L"
     },
     {
       "game": "APO42653",
