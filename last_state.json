@@ -102,11 +102,6 @@
       "responsible": "Natalya V"
     },
     {
-      "game": "GRA43232",
-      "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
       "game": "FRO43174",
       "time": "19:20",
       "responsible": "Elia S"
@@ -120,6 +115,11 @@
       "game": "BNK43194",
       "time": "19:20",
       "responsible": "Natalya V"
+    },
+    {
+      "game": "SHE43232",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     },
     {
       "game": "BNK43231",
