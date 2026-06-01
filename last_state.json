@@ -1,63 +1,13 @@
 {
-  "date": "2026-05-31",
+  "date": "2026-06-01",
   "games": [
     {
-      "game": "APO43201",
-      "time": "12:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO43262",
-      "time": "12:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO42596",
-      "time": "14:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "GRA43180",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO43206",
-      "time": "15:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO43177",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "GRA43212",
-      "time": "16:40",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK43241",
+      "game": "FRO43104",
       "time": "18:00",
       "responsible": "Grim O"
     },
     {
-      "game": "APO43257",
-      "time": "18:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "BNK43205",
-      "time": "19:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO43221",
-      "time": "19:20",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO43240",
+      "game": "BNK43239",
       "time": "20:40",
       "responsible": "Grim O"
     }
