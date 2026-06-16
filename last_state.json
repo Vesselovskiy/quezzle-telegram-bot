@@ -4,17 +4,17 @@
     {
       "game": "APO43500",
       "time": "15:20",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
       "game": "SHE43540",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Natalya V"
     },
     {
       "game": "FRO42626",
       "time": "16:40",
-      "responsible": "Elia S"
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     },
     {
       "game": "BNK42627",
@@ -32,19 +32,24 @@
       "responsible": "Natalya V"
     },
     {
+      "game": "APO43542",
+      "time": "16:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
       "game": "APO43485",
       "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
       "game": "BNK43510",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Natalya V"
     },
     {
       "game": "BNK43380",
       "time": "19:20",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     }
   ]
 }
