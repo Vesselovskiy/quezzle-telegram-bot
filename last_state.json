@@ -1,10 +1,15 @@
 {
-  "date": "2026-06-18",
+  "date": "2026-06-19",
   "games": [
     {
-      "game": "BNK43583",
-      "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "game": "FRO43536",
+      "time": "15:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK43525",
+      "time": "18:00",
+      "responsible": "Elia S"
     }
   ]
 }
