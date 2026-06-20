@@ -1,15 +1,4 @@
 {
-  "date": "2026-06-19",
-  "games": [
-    {
-      "game": "FRO43536",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK43525",
-      "time": "18:00",
-      "responsible": "Elia S"
-    }
-  ]
+  "date": "2026-06-20",
+  "games": []
 }
