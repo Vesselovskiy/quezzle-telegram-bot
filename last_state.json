@@ -1,4 +1,30 @@
 {
-  "date": "2026-06-20",
-  "games": []
+  "date": "2026-06-21",
+  "games": [
+    {
+      "game": "BNK43531",
+      "time": "11:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "FRO43597",
+      "time": "11:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "FRO43598",
+      "time": "12:40",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "BNK43484",
+      "time": "15:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "FRO43584",
+      "time": "15:20",
+      "responsible": "Natalya V"
+    }
+  ]
 }
