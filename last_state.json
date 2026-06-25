@@ -9,7 +9,7 @@
     {
       "game": "APO43643",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Natalya V"
     },
     {
       "game": "BNK43276",
@@ -50,6 +50,11 @@
       "game": "SHE43632",
       "time": "18:00",
       "responsible": "Grim O"
+    },
+    {
+      "game": "FRO43649",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
