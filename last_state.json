@@ -1,65 +1,55 @@
 {
-  "date": "2026-06-25",
+  "date": "2026-06-26",
   "games": [
     {
-      "game": "FRO43617",
+      "game": "SHE43633",
+      "time": "12:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "GRA43655",
+      "time": "12:40",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO43648",
       "time": "15:20",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "APO43643",
-      "time": "15:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK43276",
+      "game": "SHE43599",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "GRA43277",
+      "game": "GRA43647",
       "time": "16:40",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO43618",
-      "time": "16:40",
-      "responsible": "Grim O"
+      "game": "GRA43529",
+      "time": "18:00",
+      "responsible": "Elena W"
     },
     {
-      "game": "APO43165",
+      "game": "SHE43535",
+      "time": "18:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO43579",
       "time": "18:00",
       "responsible": "Natalya V"
     },
     {
-      "game": "BNK43631",
-      "time": "18:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "GRA43580",
-      "time": "18:00",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "FRO43595",
-      "time": "18:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "SHE43632",
-      "time": "18:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "FRO43649",
+      "game": "FRO43646",
       "time": "19:20",
-      "responsible": "Natalya V"
+      "responsible": "Elena W"
     },
     {
-      "game": "BNK43654",
-      "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "game": "FRO43637",
+      "time": "22:00",
+      "responsible": "Elena W"
     }
   ]
 }
