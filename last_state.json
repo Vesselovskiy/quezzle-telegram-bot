@@ -44,7 +44,7 @@
     {
       "game": "SHE43668",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Grim O"
     },
     {
       "game": "BNK43107",
@@ -85,6 +85,11 @@
       "game": "APO43670",
       "time": "20:40",
       "responsible": "Elena W"
+    },
+    {
+      "game": "BNK43673",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
