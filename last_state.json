@@ -2,11 +2,6 @@
   "date": "2026-06-27",
   "games": [
     {
-      "game": "APO43329",
-      "time": "12:40",
-      "responsible": "Grim O"
-    },
-    {
       "game": "SHE43392",
       "time": "12:40",
       "responsible": "Grim O"
@@ -14,7 +9,7 @@
     {
       "game": "GRA43493",
       "time": "12:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Grim O"
     },
     {
       "game": "SHE42701",
