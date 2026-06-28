@@ -2,6 +2,11 @@
   "date": "2026-06-28",
   "games": [
     {
+      "game": "APO43679",
+      "time": "12:40",
+      "responsible": "Grim O"
+    },
+    {
       "game": "FRO43678",
       "time": "14:00",
       "responsible": "Grim O"
