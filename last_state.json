@@ -1,30 +1,25 @@
 {
-  "date": "2026-06-28",
+  "date": "2026-06-29",
   "games": [
     {
-      "game": "APO43679",
-      "time": "12:40",
+      "game": "FRO43677",
+      "time": "11:20",
       "responsible": "Grim O"
     },
     {
-      "game": "FRO43680",
-      "time": "12:40",
+      "game": "GRA43518",
+      "time": "16:40",
       "responsible": "Grim O"
     },
     {
-      "game": "FRO43678",
-      "time": "14:00",
-      "responsible": "Grim O"
-    },
-    {
-      "game": "GRA43476",
+      "game": "GRA43517",
       "time": "18:00",
       "responsible": "Grim O"
     },
     {
-      "game": "APO43686",
-      "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "game": "GRA43669",
+      "time": "20:40",
+      "responsible": "Grim O"
     }
   ]
 }
