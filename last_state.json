@@ -1,4 +1,30 @@
 {
-  "date": "2026-07-06",
-  "games": []
+  "date": "2026-07-07",
+  "games": [
+    {
+      "game": "BNK43894",
+      "time": "12:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE43892",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO43737",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "GRA43551",
+      "time": "19:20",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK43896",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    }
+  ]
 }
