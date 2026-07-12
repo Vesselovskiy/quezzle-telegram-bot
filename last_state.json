@@ -1,95 +1,25 @@
 {
-  "date": "2026-07-11",
+  "date": "2026-07-12",
   "games": [
     {
-      "game": "FRO43582",
-      "time": "10:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO43935",
-      "time": "11:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "GRA43941",
-      "time": "11:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO42673",
-      "time": "12:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO43463",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "GRA43757",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO43895",
+      "game": "BNK43758",
       "time": "14:00",
       "responsible": "Emilia L"
     },
     {
-      "game": "SHE42642",
-      "time": "15:20",
-      "responsible": "Elia S"
+      "game": "FRO43950",
+      "time": "14:00",
+      "responsible": "Emilia L"
     },
     {
-      "game": "BNK43635",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO43726",
+      "game": "BNK43953",
       "time": "15:20",
       "responsible": "Emilia L"
     },
     {
-      "game": "FRO43940",
-      "time": "16:40",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "APO43943",
-      "time": "16:40",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "GRA43954",
+      "game": "SHE43942",
       "time": "16:40",
       "responsible": "Emilia L"
-    },
-    {
-      "game": "BNK43955",
-      "time": "16:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "GRA43888",
-      "time": "18:00",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "SHE43889",
-      "time": "18:00",
-      "responsible": "Elena W"
-    },
-    {
-      "game": "FRO43938",
-      "time": "18:00",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "GRA43956",
-      "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
