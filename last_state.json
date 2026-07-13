@@ -1,35 +1,15 @@
 {
-  "date": "2026-07-12",
+  "date": "2026-07-13",
   "games": [
     {
-      "game": "BNK43758",
+      "game": "APO43968",
       "time": "14:00",
-      "responsible": "Emilia L"
+      "responsible": "Elia S"
     },
     {
-      "game": "FRO43950",
-      "time": "14:00",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "BNK43953",
-      "time": "15:20",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "FRO43967",
-      "time": "15:20",
+      "game": "GRA43973",
+      "time": "22:00",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
-    },
-    {
-      "game": "SHE43942",
-      "time": "16:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "APO43960",
-      "time": "16:40",
-      "responsible": "Emilia L"
     }
   ]
 }
