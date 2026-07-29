@@ -79,7 +79,7 @@
     {
       "game": "BNK44314",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Emilia L"
     },
     {
       "game": "BNK44252",
@@ -95,6 +95,11 @@
       "game": "FRO44243",
       "time": "20:40",
       "responsible": "Elia S"
+    },
+    {
+      "game": "BNK44318",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
