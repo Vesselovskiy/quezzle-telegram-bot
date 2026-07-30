@@ -1,104 +1,24 @@
 {
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "games": [
     {
-      "game": "SHE44214",
+      "game": "BNK44045",
       "time": "10:00",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "FRO44239",
-      "time": "11:20",
-      "responsible": "Elia S"
+      "game": "FRO44200",
+      "time": "12:40",
+      "responsible": "Natalya V"
     },
     {
-      "game": "SHE44162",
+      "game": "GRA44323",
+      "time": "12:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "FRO44322",
       "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "GRA44251",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO44254",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK44228",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO44245",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "GRA44253",
-      "time": "15:20",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "FRO43987",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "SHE43990",
-      "time": "16:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "GRA44238",
-      "time": "16:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "APO44297",
-      "time": "16:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "GRA44066",
-      "time": "18:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO44248",
-      "time": "18:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO44309",
-      "time": "18:00",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "BNK44314",
-      "time": "18:00",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "BNK44252",
-      "time": "19:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO44312",
-      "time": "19:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO44243",
-      "time": "20:40",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK44318",
-      "time": "20:40",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
