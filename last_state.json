@@ -54,17 +54,22 @@
     {
       "game": "BNK44246",
       "time": "18:00",
-      "responsible": "Elena W"
+      "responsible": "Natalya V"
     },
     {
       "game": "FRO44295",
       "time": "18:00",
-      "responsible": "Elena W"
+      "responsible": "Natalya V"
     },
     {
       "game": "FRO44343",
       "time": "19:20",
       "responsible": "Elena W"
+    },
+    {
+      "game": "BNK44346",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     },
     {
       "game": "FRO44195",
@@ -74,7 +79,7 @@
     {
       "game": "GRA44345",
       "time": "20:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+      "responsible": "Elena W"
     }
   ]
 }
