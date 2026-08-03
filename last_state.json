@@ -1,30 +1,35 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "games": [
     {
-      "game": "BNK44403",
+      "game": "GRA44377",
       "time": "12:40",
       "responsible": "Emilia L"
     },
     {
-      "game": "SHE44242",
+      "game": "APO44406",
+      "time": "12:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
+    },
+    {
+      "game": "FRO44172",
       "time": "14:00",
       "responsible": "Emilia L"
     },
     {
-      "game": "FRO44330",
-      "time": "14:00",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "APO44296",
+      "game": "SHE44329",
       "time": "15:20",
       "responsible": "Emilia L"
     },
     {
-      "game": "BNK44328",
+      "game": "APO44405",
       "time": "15:20",
       "responsible": "Emilia L"
+    },
+    {
+      "game": "FRO44416",
+      "time": "16:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nGrim O"
     }
   ]
 }
