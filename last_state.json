@@ -4,12 +4,12 @@
     {
       "game": "APO44647",
       "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Emilia L"
     },
     {
       "game": "FRO44648",
       "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Emilia L"
     },
     {
       "game": "BNK44497",
@@ -20,6 +20,11 @@
       "game": "APO44638",
       "time": "16:40",
       "responsible": "Emilia L"
+    },
+    {
+      "game": "APO44653",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
     }
   ]
 }
