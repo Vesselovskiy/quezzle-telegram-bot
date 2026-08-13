@@ -1,39 +1,19 @@
 {
-  "date": "2026-08-12",
+  "date": "2026-08-13",
   "games": [
     {
-      "game": "APO44792",
-      "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
-    },
-    {
-      "game": "FRO44681",
-      "time": "15:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "APO44700",
-      "time": "15:20",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "BNK44635",
+      "game": "GRA44639",
       "time": "16:40",
       "responsible": "Natalya V"
     },
     {
-      "game": "APO44691",
-      "time": "16:40",
+      "game": "GRA44628",
+      "time": "18:00",
       "responsible": "Natalya V"
     },
     {
-      "game": "BNK44684",
-      "time": "20:40",
-      "responsible": "Natalya V"
-    },
-    {
-      "game": "APO44686",
-      "time": "20:40",
+      "game": "APO44698",
+      "time": "19:20",
       "responsible": "Natalya V"
     }
   ]
