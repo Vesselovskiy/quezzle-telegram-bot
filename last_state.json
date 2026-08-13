@@ -2,6 +2,11 @@
   "date": "2026-08-13",
   "games": [
     {
+      "game": "FRO44807",
+      "time": "15:20",
+      "responsible": "Natalya V"
+    },
+    {
       "game": "GRA44639",
       "time": "16:40",
       "responsible": "Natalya V"
@@ -9,7 +14,7 @@
     {
       "game": "FRO44803",
       "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Natalya V"
     },
     {
       "game": "GRA44628",
