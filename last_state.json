@@ -1,30 +1,4 @@
 {
-  "date": "2026-08-16",
-  "games": [
-    {
-      "game": "FRO44821",
-      "time": "12:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "BNK44839",
-      "time": "12:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "FRO44817",
-      "time": "14:00",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "APO44819",
-      "time": "16:40",
-      "responsible": "Emilia L"
-    },
-    {
-      "game": "FRO44845",
-      "time": "16:40",
-      "responsible": "Emilia L"
-    }
-  ]
+  "date": "2026-08-17",
+  "games": []
 }
