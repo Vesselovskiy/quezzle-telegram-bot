@@ -1,15 +1,35 @@
 {
-  "date": "2026-08-19",
+  "date": "2026-08-20",
   "games": [
     {
-      "game": "FRO44884",
+      "game": "APO43724",
       "time": "16:40",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
     },
     {
-      "game": "BNK44813",
+      "game": "FRO43725",
+      "time": "16:40",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "APO44888",
       "time": "18:00",
-      "responsible": "Elia S"
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "GRA44894",
+      "time": "18:00",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "GRA44893",
+      "time": "19:20",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "GRA44879",
+      "time": "20:40",
+      "responsible": "Natalya V"
     }
   ]
 }
