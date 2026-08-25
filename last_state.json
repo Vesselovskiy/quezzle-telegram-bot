@@ -1,10 +1,30 @@
 {
-  "date": "2026-08-24",
+  "date": "2026-08-25",
   "games": [
     {
-      "game": "BNK44509",
+      "game": "APO45041",
+      "time": "12:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "BNK45037",
+      "time": "16:40",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "GRA44809",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "SHE45038",
+      "time": "18:00",
+      "responsible": "Elia S"
+    },
+    {
+      "game": "FRO45039",
       "time": "19:20",
-      "responsible": "Erik B"
+      "responsible": "Elia S"
     }
   ]
 }
