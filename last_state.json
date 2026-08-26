@@ -2,6 +2,11 @@
   "date": "2026-08-26",
   "games": [
     {
+      "game": "SHE45090",
+      "time": "12:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+    },
+    {
       "game": "SHE44668",
       "time": "15:20",
       "responsible": "Elia S"
@@ -44,7 +49,7 @@
     {
       "game": "GRA45084",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Elia S"
     }
   ]
 }
