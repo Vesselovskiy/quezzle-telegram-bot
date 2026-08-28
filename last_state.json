@@ -19,7 +19,7 @@
     {
       "game": "GRA45129",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Natalya V"
     },
     {
       "game": "GRA44912",
@@ -65,6 +65,11 @@
       "game": "BNK45115",
       "time": "20:40",
       "responsible": "Elena W"
+    },
+    {
+      "game": "SHE45131",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
     }
   ]
 }
