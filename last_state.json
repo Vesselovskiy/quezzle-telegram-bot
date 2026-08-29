@@ -162,6 +162,11 @@
       "responsible": "Natalya V"
     },
     {
+      "game": "GRA45168",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+    },
+    {
       "game": "GRA44905",
       "time": "22:00",
       "responsible": "Elena W"
@@ -179,7 +184,7 @@
     {
       "game": "BNK45167",
       "time": "22:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Natalya V"
     }
   ]
 }
