@@ -14,12 +14,17 @@
     {
       "game": "BNK45198",
       "time": "16:40",
+      "responsible": "Erik B"
+    },
+    {
+      "game": "GRA45203",
+      "time": "18:00",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
     },
     {
       "game": "GRA45202",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Erik B"
     }
   ]
 }
