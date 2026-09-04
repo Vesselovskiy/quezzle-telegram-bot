@@ -24,7 +24,7 @@
     {
       "game": "SHE45282",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Elena W"
     },
     {
       "game": "BNK44909",
@@ -49,7 +49,7 @@
     {
       "game": "SHE45180",
       "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Elena W"
     },
     {
       "game": "FRO45266",
@@ -59,10 +59,15 @@
     {
       "game": "APO45283",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Elena W"
     },
     {
       "game": "GRA45297",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "FRO45299",
       "time": "19:20",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
     },
