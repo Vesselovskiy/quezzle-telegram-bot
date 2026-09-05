@@ -189,7 +189,12 @@
     {
       "game": "FRO45331",
       "time": "22:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nIlya M\nKateryna S\nErik B"
+      "responsible": "Elena W"
+    },
+    {
+      "game": "GRA45332",
+      "time": "22:00",
+      "responsible": "Natalya V"
     }
   ]
 }
