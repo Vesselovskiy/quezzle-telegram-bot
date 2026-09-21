@@ -1,80 +1,15 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-21",
   "games": [
     {
-      "game": "GRA45253",
-      "time": "11:20",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "FRO45691",
-      "time": "11:20",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "FRO45276",
-      "time": "12:40",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "GRA45621",
-      "time": "12:40",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "GRA45569",
-      "time": "14:00",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "FRO45671",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK45690",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO45036",
-      "time": "15:20",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "GRA45338",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "APO45676",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK45674",
+      "game": "BNK45380",
       "time": "16:40",
       "responsible": "Erik B"
     },
     {
-      "game": "FRO45679",
-      "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "BNK45688",
-      "time": "18:00",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "FRO45692",
+      "game": "FRO45658",
       "time": "18:00",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "FRO45661",
-      "time": "20:40",
-      "responsible": "Erik B"
     }
   ]
 }
