@@ -129,7 +129,7 @@
     {
       "game": "APO45764",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Natalya V"
     },
     {
       "game": "GRA45689",
@@ -145,6 +145,11 @@
       "game": "BNK45745",
       "time": "19:20",
       "responsible": "Natalya V"
+    },
+    {
+      "game": "SHE45809",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
     },
     {
       "game": "APO45578",
