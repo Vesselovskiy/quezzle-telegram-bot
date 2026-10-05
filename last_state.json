@@ -1,83 +1,23 @@
 {
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "games": [
     {
-      "game": "FRO45985",
-      "time": "11:20",
+      "game": "SHE45617",
+      "time": "10:00",
       "responsible": "Erik B"
     },
     {
-      "game": "GRA46003",
-      "time": "11:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "BNK46032",
-      "time": "12:40",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "FRO46035",
-      "time": "12:40",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "GRA45807",
-      "time": "14:00",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "FRO45908",
-      "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "APO45916",
-      "time": "14:00",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "BNK46036",
-      "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "GRA45675",
-      "time": "15:20",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "SHE45784",
-      "time": "15:20",
-      "responsible": "Elia S"
-    },
-    {
-      "game": "FRO46031",
-      "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "APO46033",
-      "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "BNK46040",
-      "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "FRO46034",
+      "game": "FRO45848",
       "time": "16:40",
       "responsible": "Erik B"
     },
     {
-      "game": "BNK46041",
+      "game": "SHE45849",
       "time": "16:40",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
     },
     {
-      "game": "FRO45866",
+      "game": "GRA45978",
       "time": "19:20",
       "responsible": "Erik B"
     }
