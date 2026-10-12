@@ -1,84 +1,14 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "games": [
     {
-      "game": "FRO45743",
+      "game": "FRO46185",
       "time": "11:20",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "BNK46067",
-      "time": "14:00",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "FRO46169",
-      "time": "14:00",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "GRA45919",
-      "time": "15:20",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "FRO46187",
-      "time": "15:20",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
     },
     {
-      "game": "FRO46164",
+      "game": "BNK45567",
       "time": "16:40",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "GRA46188",
-      "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "APO46189",
-      "time": "16:40",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "GRA46039",
-      "time": "18:00",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "APO46044",
-      "time": "18:00",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "BNK46079",
-      "time": "18:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO46080",
-      "time": "18:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "SHE46112",
-      "time": "18:00",
-      "responsible": "Kateryna S"
-    },
-    {
-      "game": "FRO46089",
-      "time": "19:20",
-      "responsible": "Erik B"
-    },
-    {
-      "game": "GRA46190",
-      "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "APO46192",
-      "time": "20:40",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
     }
   ]
