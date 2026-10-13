@@ -1,20 +1,30 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "games": [
     {
-      "game": "FRO46185",
-      "time": "11:20",
-      "responsible": "Erik B"
+      "game": "APO45918",
+      "time": "18:00",
+      "responsible": "Elia S"
     },
     {
-      "game": "GRA46197",
-      "time": "11:20",
+      "game": "BNK46124",
+      "time": "18:00",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
     },
     {
-      "game": "BNK45567",
-      "time": "16:40",
-      "responsible": "Erik B"
+      "game": "FRO46125",
+      "time": "18:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+    },
+    {
+      "game": "GRA46126",
+      "time": "18:00",
+      "responsible": "Natalya V"
+    },
+    {
+      "game": "SHE46191",
+      "time": "18:00",
+      "responsible": "Natalya V"
     }
   ]
 }
