@@ -59,7 +59,7 @@
     {
       "game": "SHE46083",
       "time": "14:00",
-      "responsible": "Kateryna S"
+      "responsible": "Elena W"
     },
     {
       "game": "BNK46202",
@@ -69,7 +69,7 @@
     {
       "game": "FRO46217",
       "time": "14:00",
-      "responsible": "Emilia L"
+      "responsible": "Kateryna S"
     },
     {
       "game": "SHE44699",
@@ -178,6 +178,11 @@
     },
     {
       "game": "GRA46284",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+    },
+    {
+      "game": "BNK46291",
       "time": "20:40",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
     },
