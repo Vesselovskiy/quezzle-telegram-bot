@@ -1,30 +1,50 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "games": [
     {
-      "game": "BNK46343",
-      "time": "12:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
-    },
-    {
-      "game": "APO45705",
+      "game": "APO46110",
       "time": "16:40",
-      "responsible": "Elia S"
+      "responsible": "Elena W"
     },
     {
-      "game": "FRO45706",
+      "game": "FRO46111",
       "time": "16:40",
-      "responsible": "Elia S"
+      "responsible": "Elena W"
     },
     {
-      "game": "SHE45707",
-      "time": "16:40",
-      "responsible": "Natalya V"
+      "game": "FRO45987",
+      "time": "18:00",
+      "responsible": "Elena W"
     },
     {
-      "game": "BNK46301",
+      "game": "SHE45988",
+      "time": "18:00",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK46204",
+      "time": "18:00",
+      "responsible": "Erik B"
+    },
+    {
+      "game": "FRO46226",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "SHE46227",
+      "time": "19:20",
+      "responsible": "Elena W"
+    },
+    {
+      "game": "SHE46250",
       "time": "20:40",
-      "responsible": "Elia S"
+      "responsible": "Elena W"
+    },
+    {
+      "game": "BNK46361",
+      "time": "20:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
     }
   ]
 }
