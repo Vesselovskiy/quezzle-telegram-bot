@@ -94,7 +94,7 @@
     {
       "game": "GRA46440",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Kateryna S"
     },
     {
       "game": "APO46442",
@@ -109,7 +109,7 @@
     {
       "game": "FRO46248",
       "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Kateryna S"
     },
     {
       "game": "SHE46305",
@@ -134,7 +134,7 @@
     {
       "game": "BNK45976",
       "time": "18:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Kateryna S"
     },
     {
       "game": "FRO46330",
@@ -159,7 +159,7 @@
     {
       "game": "BNK46414",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Kateryna S"
     },
     {
       "game": "GRA46449",
@@ -169,12 +169,12 @@
     {
       "game": "SHE46450",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Natalya V"
     },
     {
       "game": "APO46457",
       "time": "19:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Kateryna S"
     },
     {
       "game": "BNK46077",
@@ -184,7 +184,7 @@
     {
       "game": "GRA46283",
       "time": "20:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Kateryna S"
     },
     {
       "game": "FRO46329",
@@ -195,6 +195,11 @@
       "game": "SHE46382",
       "time": "20:40",
       "responsible": "Natalya V"
+    },
+    {
+      "game": "APO46459",
+      "time": "20:40",
+      "responsible": "Kateryna S"
     },
     {
       "game": "APO46265",
