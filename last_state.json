@@ -2,6 +2,11 @@
   "date": "2026-10-27",
   "games": [
     {
+      "game": "GRA46546",
+      "time": "10:00",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+    },
+    {
       "game": "FRO46452",
       "time": "11:20",
       "responsible": "Elia S"
