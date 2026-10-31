@@ -19,7 +19,7 @@
     {
       "game": "APO46669",
       "time": "11:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Emilia L"
     },
     {
       "game": "FRO46194",
@@ -34,12 +34,12 @@
     {
       "game": "BNK46534",
       "time": "12:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Emilia L"
     },
     {
       "game": "SHE46603",
       "time": "12:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Emilia L"
     },
     {
       "game": "APO45614",
@@ -54,12 +54,12 @@
     {
       "game": "GRA46280",
       "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Emilia L"
     },
     {
       "game": "BNK46367",
       "time": "14:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Emilia L"
     },
     {
       "game": "FRO46625",
@@ -79,12 +79,12 @@
     {
       "game": "BNK46602",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Emilia L"
     },
     {
       "game": "APO46648",
       "time": "15:20",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Emilia L"
     },
     {
       "game": "FRO46672",
@@ -109,7 +109,7 @@
     {
       "game": "FRO46674",
       "time": "16:40",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Kateryna S"
     },
     {
       "game": "BNK46308",
@@ -128,6 +128,11 @@
     },
     {
       "game": "GRA46583",
+      "time": "19:20",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+    },
+    {
+      "game": "APO46676",
       "time": "19:20",
       "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
     },
