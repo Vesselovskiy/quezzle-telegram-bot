@@ -112,6 +112,11 @@
       "responsible": "Kateryna S"
     },
     {
+      "game": "SHE46691",
+      "time": "16:40",
+      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+    },
+    {
       "game": "BNK46308",
       "time": "18:00",
       "responsible": "Erik B"
@@ -174,7 +179,7 @@
     {
       "game": "SHE46641",
       "time": "22:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Erik B"
     },
     {
       "game": "BNK46688",
@@ -184,7 +189,7 @@
     {
       "game": "GRA46690",
       "time": "22:00",
-      "responsible": "Ingen\nElena W\nElia S\nNatalya V\nEmilia L\nKateryna S\nErik B"
+      "responsible": "Kateryna S"
     }
   ]
 }
